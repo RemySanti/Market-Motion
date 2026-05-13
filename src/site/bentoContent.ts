@@ -21,8 +21,8 @@ export const bentoHomeItems: BentoItem[] = [
     id: 'community',
     title: 'Market Motion roundtable',
     description:
-      'Where operators share live teardowns: attribution edge cases, CWV wins, and creative systems that survived scale.',
-    cta: 'Join the case library',
+      'A place for operators to swap real teardowns: messy attribution, Core Web Vitals wins, and creative systems that survived busy seasons.',
+    cta: 'Browse the case library',
     href: '/case-studies',
     tone: 'cyan',
     layout: 'compact',
@@ -32,8 +32,8 @@ export const bentoHomeItems: BentoItem[] = [
     id: 'live',
     title: 'Weekly growth clinic',
     description:
-      'Async-first, with a standing live block to unblock ads, funnels, and instrumentation—no slide-only updates.',
-    cta: 'Secure your spot for free',
+      'Mostly async, with a standing live block to unblock ads, funnels, and tracking—no slide-only theater.',
+    cta: 'Grab a free spot',
     href: '/contact',
     tone: 'violet',
     layout: 'compact',
@@ -43,8 +43,8 @@ export const bentoHomeItems: BentoItem[] = [
     id: 'academy',
     title: 'Playbooks, merch lab, and launch kits',
     description:
-      'Step-by-step checklists, reusable creative modules, and the Motion Carry experiment—tangible artifacts your team keeps.',
-    cta: 'Watch the lab',
+      'Checklists you can reuse, creative modules that travel, and the Motion Carry experiment—things your team keeps after we leave.',
+    cta: 'Peek at the lab',
     href: '/shop',
     tone: 'amber',
     layout: 'wide',
@@ -56,10 +56,10 @@ export const bentoHomeItems: BentoItem[] = [
 export const bentoAboutItems: BentoItem[] = [
   {
     id: 'embed',
-    title: 'Embedded like a product team',
+    title: 'We sit with you like a product team',
     description:
-      'Shared channels, weekly exec readouts, and PRs you can review—so knowledge stays in your org, not a black box.',
-    cta: 'See how we engage',
+      'Shared channels, weekly readouts leadership can skim, and pull requests you can review—so the work lives in your org.',
+    cta: 'How we engage',
     href: '/contact',
     tone: 'cyan',
     layout: 'compact',
@@ -67,10 +67,10 @@ export const bentoAboutItems: BentoItem[] = [
   },
   {
     id: 'principles',
-    title: 'Principles you can audit',
+    title: 'Principles you can actually check',
     description:
-      'Instrument first, ship primitives not one-offs, and treat privacy as a feature—documented in every engagement.',
-    cta: 'Read how we ship',
+      'Measure before you polish, ship building blocks instead of one-offs, and treat privacy like part of the product—documented every time.',
+    cta: 'See how we ship',
     href: '/case-studies',
     tone: 'violet',
     layout: 'compact',
@@ -78,9 +78,9 @@ export const bentoAboutItems: BentoItem[] = [
   },
   {
     id: 'handoff',
-    title: 'From first workshop to scaled spend',
+    title: 'From first workshop to confident spend',
     description:
-      'A repeatable arc: diagnose, build composable surfaces, then run experiments with kill criteria—so growth compounds instead of resetting every quarter.',
+      'A steady arc: figure out what is broken, ship composable surfaces, then run experiments with clear stop rules—so growth does not reset every quarter.',
     cta: 'Explore services',
     href: '/services/website',
     tone: 'amber',
@@ -93,10 +93,10 @@ export const bentoAboutItems: BentoItem[] = [
 export const bentoWorkItems: BentoItem[] = [
   {
     id: 'dossier',
-    title: 'Request a full dossier',
+    title: 'Ask for the full dossier',
     description:
-      'Redacted timelines, stack diagrams, and before/after metrics for programs closest to your industry.',
-    cta: 'Start with a brief',
+      'Redacted timelines, simple stack sketches, and before/after numbers for work closest to your world.',
+    cta: 'Send a short brief',
     href: '/contact',
     tone: 'cyan',
     layout: 'compact',
@@ -106,7 +106,7 @@ export const bentoWorkItems: BentoItem[] = [
     id: 'workshop',
     title: 'Benchmark workshop',
     description:
-      'A working session to stress-test your funnel, tagging plan, and creative velocity against peers we have seen at scale.',
+      'A working session to pressure-test your funnel, tagging plan, and creative pace against programs we have seen at scale.',
     cta: 'Book a session',
     href: '/contact',
     tone: 'violet',
@@ -115,10 +115,10 @@ export const bentoWorkItems: BentoItem[] = [
   },
   {
     id: 'patterns',
-    title: 'Three patterns we ship again and again',
+    title: 'Three patterns we keep coming back to',
     description:
-      'Instrumentation before redesign. Creative systems paired with paid. Automation with human approvals—patterns you can lift into your roadmap this quarter.',
-    cta: 'View the playbook path',
+      'Instrumentation before redesign. Creative systems paired with paid. Automation with human checkpoints—patterns you can lift into your roadmap this quarter.',
+    cta: 'Follow the playbook path',
     href: '/services/seo-ppc',
     tone: 'amber',
     layout: 'wide',

@@ -9,12 +9,12 @@ export function SocialMediaServicePage() {
     <ServiceFrame
       narrative={socialMediaNarrative}
       kicker="Service / Social"
-      title="Editorial systems that keep feeds coherent under velocity."
-      lede="Playbooks, approvals, and UGC ingestion—wired to your DAM and performance feedback loops."
+      title="Social calendars that stay human when volume spikes."
+      lede="Editorial rhythm, approvals, and community care—connected to your asset library and what performance data says."
       bullets={[
-        'Channel strategy with creative fatigue monitoring.',
-        'Community workflows with escalation paths and brand voice rubrics.',
-        'Influencer / partner programs with contract templates and tracking links.',
+        'Channel plans with a close eye on creative fatigue.',
+        'Community workflows with clear escalation paths and a steady voice.',
+        'Partner and influencer programs with simple contracts and clean tracking links.',
       ]}
       metrics={[
         { label: 'Cadence', value: 'Daily+' },

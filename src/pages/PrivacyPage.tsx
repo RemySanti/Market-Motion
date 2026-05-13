@@ -13,27 +13,27 @@ export function PrivacyPage() {
       <PageIntro
         kicker="Legal"
         title="Privacy policy"
-        lead="This page explains what data this demo experience touches, how long it might live, and who to contact. Legal pages deserve the same scannability as product UI—dense text hides risk."
+        lead="What data this demo might touch, how long it could stick around, and how to reach a human. Legal should be as easy to scan as the rest of the site—walls of text hide risk."
       />
       <p className="mt-3 text-sm text-slate-500">Last updated: May 11, 2026</p>
 
       <PageSection className="mt-8 sm:mt-10">
         <PageReadGuide
           eyebrow="Legal · orientation"
-          title="How to read this policy"
-          lead="Jump to any section below. Each block answers one stakeholder question: what, how long, and who owns follow-ups."
+          title="How to use this page"
+          lead="Jump to any section. Each one answers a simple question: what we collect, how long we keep it, and who to email."
           items={[
             {
               title: 'Overview',
-              description: 'High-level framing—what this site does and does not collect in its demo state.',
+              description: 'What this demo does today—and what it does not collect while it stays static.',
             },
             {
-              title: 'Data we may process',
-              description: 'Forward-looking list for when you connect forms, analytics, or client workspaces.',
+              title: 'Data we may handle later',
+              description: 'A forward-looking list for when you connect forms, analytics, or client workspaces.',
             },
             {
-              title: 'Retention & contact',
-              description: 'How long things live and where to email if you need a human—no maze of legalese links.',
+              title: 'Retention and contact',
+              description: 'How long things live and where to write if you need help—without hunting through footnotes.',
             },
           ]}
         />
@@ -45,24 +45,24 @@ export function PrivacyPage() {
             <section id="privacy-overview" className="scroll-mt-28">
               <h2 className="text-lg font-semibold text-white">Overview</h2>
               <p className="mt-3">
-                This demo site does not collect personal data beyond what your browser normally shares with static hosting.
-                When you connect analytics or forms, document those processors here—and surface a short summary on the
-                contact page so users see the same story twice, consistently.
+                This demo mostly behaves like a static site: we do not intentionally collect personal data beyond what
+                your browser shares with hosting. When you add analytics or forms, list those vendors here and mirror a
+                short summary on the contact page so the story stays consistent.
               </p>
             </section>
             <section id="privacy-data" className="scroll-mt-28">
               <h2 className="text-lg font-semibold text-white">Data we may process</h2>
               <p className="mt-3">
-                Contact submissions, client workspace activity, billing identifiers, and advertising identifiers when you opt
-                in to measurement. Pair each bullet with a “why we need it” sentence in production to satisfy informed
-                consent patterns.
+                Examples include contact submissions, client workspace activity, billing identifiers, and ad identifiers when
+                someone opts in to measurement. In production, pair each type with a short “why we need it” line so consent
+                stays informed and readable.
               </p>
             </section>
             <section id="privacy-retention" className="scroll-mt-28">
               <h2 className="text-lg font-semibold text-white">Retention</h2>
               <p className="mt-3">
-                Operational logs and CRM records follow your master agreement. Analytics retention should match your GA4 /
-                Ads settings—state the default and how to request deletion.
+                Day-to-day logs and CRM records should follow your master agreement. For analytics, match retention to your
+                GA4 or Ads settings—say the default plainly and explain how someone can request deletion.
               </p>
             </section>
             <section id="privacy-contact" className="scroll-mt-28">

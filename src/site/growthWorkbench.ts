@@ -35,7 +35,7 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
   {
     id: 'strategy',
     label: 'Strategy',
-    description: 'Positioning, IA, and measurement before build.',
+    description: 'Get positioning, site structure, and measurement right before you build.',
     accent: 'cyan',
     steps: [
       {
@@ -43,16 +43,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Start',
         preview: {
           eyebrow: 'Kickoff',
-          title: 'Align on the win that actually matters',
-          body: 'We translate leadership intent into measurable outcomes—not vanity KPIs.',
-          button: 'Book a strategy call',
+          title: 'Agree on the win that actually matters',
+          body: 'We turn leadership intent into numbers people can defend—not vanity metrics.',
+          button: 'Plan a strategy call',
         },
         panel: {
           headline: 'Clarity before craft',
           paragraph:
-            'Discovery workshops, competitive scans, and analytics baselines so every later decision traces back to revenue or retention.',
+            'Workshops, a clear-eyed look at competitors, and honest analytics baselines so every later choice ties back to revenue or retention.',
           href: '/services/website',
-          cta: 'Explore website systems',
+          cta: 'See how we build sites',
         },
       },
       {
@@ -60,16 +60,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Range',
         preview: {
           eyebrow: 'Scope',
-          title: 'Map the surfaces your buyer touches',
-          body: 'Sites, ads, social proof, and offline moments—one coherent story.',
+          title: 'Map where your buyer actually goes',
+          body: 'Site, ads, social proof, offline touchpoints—one story that holds together.',
           button: 'See channel mix',
         },
         panel: {
-          headline: 'Full-funnel narrative',
+          headline: 'A story that spans the funnel',
           paragraph:
-            'Channel architecture that respects how people really research on mobile-first journeys.',
+            'Channel plans that match how people really research—especially on their phones.',
           href: '/services/seo-ppc',
-          cta: 'SEO & PPC services',
+          cta: 'SEO and PPC',
         },
       },
       {
@@ -77,14 +77,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Goal',
         preview: {
           eyebrow: 'North star',
-          title: 'Pick the metrics execs will defend',
-          body: 'CPL, pipeline velocity, margin per cohort—documented and owned.',
+          title: 'Pick metrics leadership will stand behind',
+          body: 'Cost per lead, pipeline speed, margin by cohort—written down with owners.',
           button: 'Define goals',
         },
         panel: {
-          headline: 'Instrumentation design',
+          headline: 'Measurement by design',
           paragraph:
-            'GA4 events, CRM fields, and offline imports sketched before launch traffic hits.',
+            'GA4 events, CRM fields, and offline imports sketched before launch traffic shows up.',
           href: '/contact',
           cta: 'Talk measurement',
         },
@@ -94,16 +94,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Position',
         preview: {
           eyebrow: 'Market',
-          title: 'Own a defensible lane',
-          body: 'Category language, proof points, and objection handling baked into copy.',
+          title: 'Carve out a lane you can own',
+          body: 'Category language, proof, and answers to objections—baked into copy everyone can reuse.',
           button: 'Review positioning',
         },
         panel: {
-          headline: 'Differentiation you can ship',
+          headline: 'Messaging you can ship',
           paragraph:
-            'Messaging systems that creatives, paid teams, and sales can reuse without drift.',
+            'Systems creatives, paid media, and sales can all pull from—without drifting apart.',
           href: '/about',
-          cta: 'About the team',
+          cta: 'Meet the team',
         },
       },
       {
@@ -111,16 +111,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Budget',
         preview: {
           eyebrow: 'Resourcing',
-          title: 'Phase spend against learning velocity',
-          body: 'Pilot → validate → scale with explicit kill criteria.',
+          title: 'Phase spend with learning in mind',
+          body: 'Pilot, prove it, then scale—with clear rules for when to stop.',
           button: 'See phasing model',
         },
         panel: {
-          headline: 'Capital-efficient growth',
+          headline: 'Growth that respects the budget',
           paragraph:
-            'Portfolio planning across paid, creative, and engineering so budgets compound.',
+            'Planning across paid, creative, and engineering so dollars stack instead of scatter.',
           href: '/case-studies',
-          cta: 'View case studies',
+          cta: 'Read case studies',
         },
       },
       {
@@ -128,16 +128,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Opt-In',
         preview: {
           eyebrow: 'Launch',
-          title: 'Ship the first credible slice',
-          body: 'Landing, tracking, and QA in one tight loop—ready for traffic.',
+          title: 'Ship the first slice people can trust',
+          body: 'Landing page, tracking, and QA in one tight loop—ready for real traffic.',
           button: 'Launch checklist',
         },
         panel: {
           headline: 'Ready when you are',
           paragraph:
-            'We stand up the first measurable slice fast, then iterate with experiment hygiene.',
+            'We get the first measurable slice live quickly, then improve with disciplined experiments.',
           href: '/contact',
-          cta: 'Start your project',
+          cta: 'Start a project',
         },
       },
     ],
@@ -145,7 +145,7 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
   {
     id: 'systems',
     label: 'Systems',
-    description: 'Composable integrations with observability.',
+    description: 'Integrations that fit together—and that you can actually watch and fix.',
     accent: 'violet',
     steps: [
       {
@@ -153,16 +153,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Sources',
         preview: {
           eyebrow: 'Data in',
-          title: 'Normalize events across platforms',
-          body: 'Ads, site, CRM, and warehouse signals with shared contracts.',
+          title: 'Line up events from every platform',
+          body: 'Ads, site, CRM, and warehouse—same definitions everywhere.',
           button: 'View schema map',
         },
         panel: {
-          headline: 'Reliable pipelines',
+          headline: 'Pipelines you can rely on',
           paragraph:
-            'Idempotent sync jobs, retries, and alerting so ops trusts the glue—not fears it.',
+            'Sync jobs that can retry, clear alerts, and ops teams who trust the glue between tools.',
           href: '/services/automations',
-          cta: 'Automations practice',
+          cta: 'Automations',
         },
       },
       {
@@ -170,14 +170,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Routing',
         preview: {
           eyebrow: 'Logic',
-          title: 'Route leads with human checkpoints',
-          body: 'AI drafts, humans approve—especially for regulated industries.',
+          title: 'Route leads with humans in the loop',
+          body: 'Let AI draft; people approve when it matters—especially in regulated spaces.',
           button: 'See routing rules',
         },
         panel: {
-          headline: 'Human-in-the-loop',
+          headline: 'People where you need them',
           paragraph:
-            'Guardrails for enrichment, scoring, and handoffs between marketing and sales.',
+            'Guardrails for enrichment, scoring, and clean handoffs between marketing and sales.',
           href: '/contact',
           cta: 'Design routing',
         },
@@ -187,14 +187,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Automation',
         preview: {
           eyebrow: 'Playbooks',
-          title: 'Trigger journeys off real behavior',
-          body: 'Lifecycle branches that respect consent and frequency caps.',
+          title: 'Trigger journeys from real behavior',
+          body: 'Lifecycle branches that respect consent and how often you reach out.',
           button: 'Open playbook',
         },
         panel: {
-          headline: 'Lifecycle that scales',
+          headline: 'Lifecycle that can grow',
           paragraph:
-            'Composable automation with audit trails—not mystery cron jobs.',
+            'Automation you can audit—not mystery cron jobs no one remembers owning.',
           href: '/services/automations',
           cta: 'Explore automations',
         },
@@ -204,16 +204,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'QA',
         preview: {
           eyebrow: 'Safety',
-          title: 'Test in shadow before production',
-          body: 'Diffs, dry runs, and rollback paths baked into deploys.',
+          title: 'Try it in shadow before it hits prod',
+          body: 'Diffs, dry runs, and rollback paths as part of every deploy.',
           button: 'QA dashboard',
         },
         panel: {
           headline: 'Change you can trust',
           paragraph:
-            'Staging parity, feature flags, and observability for every integration release.',
+            'Staging that matches production, feature flags, and visibility on every integration release.',
           href: '/case-studies',
-          cta: 'See reliability wins',
+          cta: 'Reliability stories',
         },
       },
       {
@@ -221,14 +221,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Handoff',
         preview: {
           eyebrow: 'Docs',
-          title: 'Runbooks your team inherits',
-          body: 'On-call steps, escalation paths, and dashboards named in plain English.',
+          title: 'Runbooks your team keeps',
+          body: 'Who to call, how to escalate, dashboards named in plain English.',
           button: 'Read runbook',
         },
         panel: {
-          headline: 'Operational clarity',
+          headline: 'Ops that stays clear',
           paragraph:
-            'We document like an internal platform team so knowledge does not walk out the door.',
+            'We write things the way an internal platform team would—so knowledge does not walk out the door.',
           href: '/about',
           cta: 'Meet the operators',
         },
@@ -238,16 +238,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Results',
         preview: {
           eyebrow: 'Signals',
-          title: 'Thank you—here is what improved',
-          body: 'Latency, error budgets, and revenue proxies in one exec view.',
+          title: 'Here is what got better',
+          body: 'Latency, errors, and revenue signals in one view for leadership.',
           button: 'View summary',
         },
         panel: {
-          headline: 'Proof in the metrics',
+          headline: 'Proof in the numbers',
           paragraph:
-            'Dashboards that tie engineering health to commercial outcomes—not vanity charts.',
+            'Dashboards that connect how systems run to how the business performs—not vanity charts.',
           href: '/case-studies',
-          cta: 'Proof library',
+          cta: 'See proof',
         },
       },
     ],
@@ -255,7 +255,7 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
   {
     id: 'scale',
     label: 'Scale',
-    description: 'Performance loops with creative discipline.',
+    description: 'Performance loops with room for creative to breathe.',
     accent: 'amber',
     steps: [
       {
@@ -263,16 +263,16 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Baseline',
         preview: {
           eyebrow: 'Benchmark',
-          title: 'Establish honest starting points',
-          body: 'Search, paid, and lifecycle baselines with clean attribution.',
+          title: 'Start from an honest line in the sand',
+          body: 'Search, paid, and lifecycle baselines with attribution you can explain.',
           button: 'Open baseline deck',
         },
         panel: {
-          headline: 'Truthful measurement',
+          headline: 'Measurement you can stand behind',
           paragraph:
-            'Server-side tagging, consent mode, and CRM backfills so experiments read clean.',
+            'Server-side tagging, consent mode, and CRM backfills so tests read clean.',
           href: '/services/seo-ppc',
-          cta: 'SEO & PPC',
+          cta: 'SEO and PPC',
         },
       },
       {
@@ -280,14 +280,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Experiments',
         preview: {
           eyebrow: 'Cadence',
-          title: 'Ship weekly learning cycles',
-          body: 'Hypothesis cards, power analysis, and kill criteria upfront.',
+          title: 'Ship a learning rhythm every week',
+          body: 'Hypothesis cards, enough sample size, and rules for when to stop.',
           button: 'See experiment board',
         },
         panel: {
-          headline: 'Experiment hygiene',
+          headline: 'Experiments with hygiene',
           paragraph:
-            'Structured tests across landing, bids, and creative fatigue—not random tweaks.',
+            'Structured tests on landing pages, bids, and creative fatigue—not random tweaks.',
           href: '/case-studies',
           cta: 'Case studies',
         },
@@ -298,15 +298,15 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         preview: {
           eyebrow: 'Velocity',
           title: 'Modular creative for every placement',
-          body: 'Ratios, hooks, and proofs generated once, deployed everywhere.',
+          body: 'Hooks and proof points built once, adapted for each channel.',
           button: 'Preview variants',
         },
         panel: {
-          headline: 'Creative systems',
+          headline: 'Creative as a system',
           paragraph:
-            'Photo, video, and social modules aligned to funnel stages and platform safe zones.',
+            'Photo, video, and social modules lined up to funnel stages and each platform’s safe zones.',
           href: '/services/photo-video',
-          cta: 'Photo / video',
+          cta: 'Photo and video',
         },
       },
       {
@@ -314,14 +314,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Spend',
         preview: {
           eyebrow: 'Efficiency',
-          title: 'Guardrails on CAC and payback',
-          body: 'Portfolio rules that throttle spend when quality drops.',
+          title: 'Keep CAC and payback in view',
+          body: 'Portfolio rules that ease off when quality slips.',
           button: 'View guardrails',
         },
         panel: {
-          headline: 'Economical scale',
+          headline: 'Scale that stays economical',
           paragraph:
-            'Paid search, social, and lifecycle spend orchestrated against margin goals.',
+            'Search, social, and lifecycle spend orchestrated around margin—not just volume.',
           href: '/services/social-media',
           cta: 'Social programs',
         },
@@ -331,14 +331,14 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         label: 'Commerce',
         preview: {
           eyebrow: 'Checkout',
-          title: 'Merch + promos without breaking ops',
-          body: 'Catalog-aware campaigns tied to inventory signals.',
+          title: 'Merch and promos without breaking ops',
+          body: 'Campaigns that know what is in stock.',
           button: 'See commerce flow',
         },
         panel: {
-          headline: 'Ecommerce that survives spikes',
+          headline: 'Stores that survive busy days',
           paragraph:
-            'Headless storefront patterns, subscriptions, and fulfillment hooks reviewed with finance.',
+            'Headless patterns, subscriptions, and fulfillment hooks reviewed with finance.',
           href: '/services/ecommerce',
           cta: 'Ecommerce',
         },
@@ -349,15 +349,15 @@ export const WORKBENCH_TOPS: WorkbenchTop[] = [
         preview: {
           eyebrow: 'Retention',
           title: 'Turn wins into playbooks',
-          body: 'Documented loops your team can rerun next quarter.',
+          body: 'Documented loops your team can run again next quarter.',
           button: 'Download playbook',
         },
         panel: {
-          headline: 'Compounding growth',
+          headline: 'Growth that compounds',
           paragraph:
             'We leave you with systems, dashboards, and creative kits—not one-off heroics.',
           href: '/contact',
-          cta: 'Scale with us',
+          cta: 'Grow with us',
         },
       },
     ],

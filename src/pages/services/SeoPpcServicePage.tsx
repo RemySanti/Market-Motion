@@ -9,12 +9,12 @@ export function SeoPpcServicePage() {
     <ServiceFrame
       narrative={seoPpcNarrative}
       kicker="Service / SEO & PPC"
-      title="Search and paid media that respect your unit economics."
-      lede="Structured data, intent clustering, and server-side tagging so your dashboards reflect revenue—not mirages."
+      title="Search and paid that respect your unit economics."
+      lede="Structured data, intent clusters, and honest tagging so dashboards reflect revenue—not mirages."
       bullets={[
-        'Technical SEO: crawl budget, indexation, CWV, and log-file diagnostics.',
-        'Google Ads + Microsoft + paid social with experiment discipline and guardrails.',
-        'Attribution design: GA4, offline imports, and CRM backfills where needed.',
+        'Technical SEO that covers crawl health, indexation, Core Web Vitals, and log patterns when it helps.',
+        'Google Ads, Microsoft, and paid social with experiment discipline and clear guardrails.',
+        'Attribution you can explain: GA4, offline imports, and CRM backfills when the story needs them.',
       ]}
       metrics={[
         { label: 'Experiment cadence', value: 'Biweekly' },

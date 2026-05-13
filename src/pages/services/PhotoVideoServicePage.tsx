@@ -9,12 +9,12 @@ export function PhotoVideoServicePage() {
     <ServiceFrame
       narrative={photoVideoNarrative}
       kicker="Service / Photo & video"
-      title="Modular creative pipelines for always-on channels."
-      lede="From product macro to founder narrative—we storyboard, shoot, grade, and deliver channel-native cuts."
+      title="Photo and video built to ship everywhere you market."
+      lede="From product detail to founder story—we plan, shoot, grade, and hand off cuts sized for each channel."
       bullets={[
-        'Shot lists aligned to funnel stages and platform safe zones.',
-        'Color pipeline with reusable LUTs + brand-locked vectors.',
-        'Deliverables spec: masters, social ratios, CTV, and DOOH when needed.',
+        'Shot lists tied to funnel stages and each platform’s safe zones.',
+        'Color pipeline with reusable LUTs and brand-locked vectors.',
+        'Deliverable packs: masters, social ratios, CTV, and out-of-home when you need them.',
       ]}
       metrics={[
         { label: 'Turnaround', value: '10–14d' },

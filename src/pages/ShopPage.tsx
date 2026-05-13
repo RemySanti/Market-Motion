@@ -13,29 +13,29 @@ export function ShopPage() {
       <PageIntro
         kicker="Shop"
         title="Motion Carry — tan edition"
-        lead="Wearable phone pouch engineered for operators who live between shoots, terminals, and client floors. This page mirrors a production PDP: orientation, proof, specs, and a clear commerce action—wired for headless checkout when you connect payments."
+        lead="A phone pouch built for people who bounce between shoots, airports, and client sites. This page follows a real product flow—why it exists, proof, specs, and checkout—ready for headless payments when you wire them in."
       />
 
       <PageSection className="mt-8 sm:mt-10">
         <PageReadGuide
           eyebrow="Shop · orientation"
-          title="How to read this product page"
-          lead="We split the story into “why it exists” (left) and “what you are buying” (right). Your future PDP can reorder blocks, but the cognitive flow stays: value → evidence → transaction."
+          title="How this product page is organized"
+          lead="On the left: why the product exists and what you pay. On the right: what you are buying. You can reorder blocks later; the flow still moves value, proof, then checkout."
           items={[
             {
-              title: 'Hero product panel',
+              title: 'Product hero',
               description:
-                'Price, batch context, and shipping clarity up top—so visitors never hunt for the basics on mobile.',
+                'Price, batch note, and shipping called out up top—so nobody hunts on mobile.',
             },
             {
-              title: 'Placeholder media callout',
+              title: 'Media placeholder',
               description:
-                'Shows where rich media slots in. Swap for carousel, video, or AR without restructuring the layout.',
+                'Drop in photos, video, or 3D without rebuilding the whole layout.',
             },
             {
-              title: 'Specs + CTA',
+              title: 'Specs beside the button',
               description:
-                'Technical trust lives beside the buy button—reduces tabs opened in the background and bounce to FAQs.',
+                'Technical trust sits next to the buy action—fewer tab hops and fewer “check the FAQ” bounces.',
             },
           ]}
         />
@@ -45,19 +45,19 @@ export function ShopPage() {
         <PageInsightRow
           cards={[
             {
-              eyebrow: 'Merchandising UX',
-              title: 'Operators recognize operators',
-              body: 'Copy speaks to motion-heavy days: airports, sets, retail floors—so the right buyer self-selects fast.',
+              eyebrow: 'Merch voice',
+              title: 'Written for people who live on the move',
+              body: 'Airports, sets, retail floors—the right buyer recognizes themselves quickly.',
             },
             {
-              eyebrow: 'Checkout-ready',
-              title: 'Buttons are honest',
-              body: 'Demo state is labeled. In production, wire Stripe/Shopify and swap this block for inventory-aware CTAs.',
+              eyebrow: 'Honest checkout',
+              title: 'Buttons tell the truth',
+              body: 'This is a demo label. In production, plug in Stripe or Shopify and swap for stock-aware buttons.',
             },
             {
-              eyebrow: 'Ops hooks',
-              title: 'Designed for real fulfillment',
-              body: 'SKU + webhook mention signals this is not a static brochure—it expects ERP or 3PL truth behind the scenes.',
+              eyebrow: 'Fulfillment aware',
+              title: 'Built for real operations',
+              body: 'SKU and webhook hints show this expects warehouse or 3PL data behind the scenes—not a PDF brochure.',
             },
           ]}
         />
@@ -67,22 +67,22 @@ export function ShopPage() {
         <div className="mb-8 max-w-2xl">
           <h2 className="section-title">Fit before you buy</h2>
           <p className="section-desc mt-3">
-            Physical goods need the same clarity as SaaS trials—especially for limited batches where expectation management
-            is brand protection.
+            Physical products deserve the same clarity as software trials—especially for small batches where expectations are
+            part of the brand.
           </p>
         </div>
         <PageFitCallout
           title="Motion Carry"
-          idealTitle="Great fit"
+          idealTitle="Great fit if"
           ideal={[
-            'You want premium merch that feels usable, not landfill swag.',
-            'You need a template SKU to test headless storefront components.',
-            'You value domestic shipping baked into price for simpler support.',
+            'You want premium merch people will actually use, not drawer clutter.',
+            'You need a sample SKU to exercise a headless storefront.',
+            'You like domestic shipping rolled into the price for simpler support.',
           ]}
-          caveatTitle="Heads-up"
+          caveatTitle="Before you launch wide"
           caveats={[
-            'International duties are not modeled here—add disclosure blocks before EU/UK launch.',
-            'If you need try-on sizing, add a fit guide module above the fold on mobile.',
+            'International duties are not spelled out here—add clear disclosures before EU or UK shipping.',
+            'If sizing matters, add a fit guide above the fold on mobile.',
           ]}
         />
       </PageSection>
@@ -100,7 +100,7 @@ export function ShopPage() {
             <div className="mt-10 rounded-2xl border border-dashed border-white/15 bg-black/30 p-5 text-left sm:mt-12 sm:p-6">
               <p className="font-mono text-[11px] uppercase text-slate-500">Placeholder media</p>
               <p className="mt-2 text-sm text-slate-400">
-                Swap this panel for product photography, 3D, or WebGL preview.
+                Swap this for photography, 3D, or a lightweight WebGL preview.
               </p>
             </div>
           </div>

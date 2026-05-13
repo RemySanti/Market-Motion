@@ -15,117 +15,119 @@ export type ServiceNarrative = {
 
 export const websiteNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'We organized this page the way we scope work: what you get, how we ship it, and what “done” looks like in production—not a feature laundry list.',
+    title: 'What this page covers',
+    lead:
+      'We organized it the way we actually work: what you get, how we roll it out, and what “done” means in production—not a feature laundry list.',
     items: [
       {
-        title: 'Scope column',
+        title: 'Delivery list',
         description:
-          'The left panel is your delivery checklist. Each line is a production-ready commitment, not marketing filler.',
+          'The left column is your checklist. Each line is something we ship for real, not filler copy.',
       },
       {
-        title: 'Signals column',
+        title: 'Targets',
         description:
-          'Numbers on the right are targets we design toward (CWV, accessibility). They become gates in your repo and release notes.',
+          'The numbers on the right are goals we design toward—speed, accessibility—and we often wire them into CI so they stick.',
       },
       {
-        title: 'Journey below',
+        title: 'Timeline',
         description:
-          'The timeline explains sequence—so stakeholders know when content, design, and analytics actually land.',
+          'The journey shows order of operations so people know when content, design, and analytics actually land.',
       },
     ],
   },
   journey: {
-    title: 'From blank repo to resilient launch',
-    subtitle: 'A simplified delivery map your team can align on in one read—same cadence we use in kickoffs.',
+    title: 'From empty repo to a launch you can trust',
+    subtitle: 'A simple map your team can align on in one read—the same rhythm we use in kickoffs.',
     steps: [
       {
         phase: 'Week 0–1',
-        title: 'Blueprint & measurement spine',
-        body: 'IA, component inventory, consent + analytics schema, and editor workflows—before visual polish steals attention.',
+        title: 'Blueprint and measurement spine',
+        body: 'Site structure, component inventory, consent and analytics, and how editors will work—before polish steals all the oxygen.',
       },
       {
         phase: 'Week 2–4',
-        title: 'Composable build + CMS wiring',
-        body: 'Design system in code, preview environments, and migration scripts so launches are reversible, not “big bang”.',
+        title: 'Composable build and CMS wiring',
+        body: 'Design system in code, previews, and migration paths so going live feels reversible, not like a one-way door.',
       },
       {
         phase: 'Week 5+',
-        title: 'Hardening & handoff',
-        body: 'Performance budgets in CI, accessibility sweeps, runbooks for editors, and a punch list tied to business KPIs.',
+        title: 'Hardening and handoff',
+        body: 'Performance budgets in CI, accessibility passes, editor runbooks, and a punch list tied to the metrics you care about.',
       },
     ],
   },
   insights: [
     {
       eyebrow: 'UX principle',
-      title: 'Editor experience is a first-class surface',
-      body: 'If marketing cannot publish safely, velocity dies. We prototype the CMS path as early as the hero layout.',
+      title: 'The editor experience matters as much as the hero',
+      body: 'If marketing cannot publish safely, nothing ships fast. We prototype the CMS path as early as the first layout.',
     },
     {
       eyebrow: 'Systems',
-      title: 'One source of truth for content + schema',
-      body: 'Structured data, OG tags, and event naming ship together so Search, Social, and CRM narratives stay aligned.',
+      title: 'One place for content and structure',
+      body: 'Structured data, social previews, and event naming ship together so search, social, and CRM stay on the same story.',
     },
     {
       eyebrow: 'Risk',
-      title: 'Launch without “unknown unknowns”',
-      body: 'Canary routes, staged domains, and rollback switches are documented—not improvised the night before go-live.',
+      title: 'Launches without nasty surprises',
+      body: 'Canary routes, staging domains, and rollback switches get written down—not invented the night before go-live.',
     },
   ],
   fit: {
     title: 'Website engagements',
-    idealTitle: 'Strong fit',
+    idealTitle: 'A great fit when',
     ideal: [
-      'You need marketing + product surfaces to share a design language.',
-      'Performance and accessibility are non-negotiable brand signals.',
+      'Marketing and product surfaces should feel like one brand, not two teams guessing.',
+      'Performance and accessibility are part of how you show up, not an afterthought.',
       'You want editors empowered without breaking layout or SEO.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'You need only a single landing page with no ongoing publishing (we may still help—scope just shrinks).',
-      'No owner for analytics/consent decisions—legal and marketing need a named DRI before build week.',
+      'You only need a single landing page with almost no ongoing publishing—we can still help; the scope just shrinks.',
+      'There is no clear owner for analytics or consent yet—legal and marketing need one named person before build week.',
     ],
   },
 }
 
 export const seoPpcNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'Paid and organic should tell one coherent story. This page separates what we instrument, what we ship in creative, and how we govern spend.',
+    title: 'What this page covers',
+    lead:
+      'Paid and organic should tell one story. Here is what we measure, what we ship in creative, and how we keep spend under adult supervision.',
     items: [
       {
-        title: 'Scope = playbooks',
-        description: 'Each bullet is something we document in writing: naming, audiences, QA, and escalation paths.',
+        title: 'Playbooks',
+        description: 'Each bullet becomes something in writing: naming, audiences, QA, and who to call when something breaks.',
       },
       {
-        title: 'Signals = guardrails',
-        description: 'Efficiency and coverage metrics are how we keep platforms honest—not vanity dashboards.',
+        title: 'Guardrails',
+        description: 'Efficiency and coverage numbers keep platforms honest—so you are not staring at vanity charts.',
       },
       {
-        title: 'Journey = weekly rhythm',
-        description: 'Shows the operating cadence your team adopts: ship, learn, reallocate—without thrash.',
+        title: 'Weekly rhythm',
+        description: 'The journey is the cadence your team adopts: ship, learn, move budget—without constant thrash.',
       },
     ],
   },
   journey: {
-    title: 'Search & paid loop in plain language',
+    title: 'The search and paid loop, in plain English',
     subtitle: 'What happens after kickoff—so finance and creative both know the drumbeat.',
     steps: [
       {
         phase: 'Discover',
-        title: 'Intent map + account hygiene',
-        body: 'Keyword / audience clusters, negative lists, conversion definitions, and server-side tagging checks.',
+        title: 'Intent map and account hygiene',
+        body: 'Keyword and audience clusters, negatives, conversion definitions, and a quick check that tagging is telling the truth.',
       },
       {
         phase: 'Build',
-        title: 'Creative system + landing parity',
-        body: 'Modular ads, message match to LP, and experiments sized for statistical sanity—not random toggles.',
+        title: 'Creative system and landing parity',
+        body: 'Modular ads, message match to the page, and experiments sized so we are not flipping coins.',
       },
       {
         phase: 'Operate',
         title: 'Weekly learning agenda',
-        body: 'Budget shifts with narrative notes, search query mining, and CRO tickets fed back to the web team.',
+        body: 'Budget moves with short notes, search query mining, and CRO tickets that feed back to the web team.',
       },
     ],
   },
@@ -133,72 +135,73 @@ export const seoPpcNarrative: ServiceNarrative = {
     {
       eyebrow: 'UX of data',
       title: 'Dashboards people actually open',
-      body: 'We design weekly views around decisions: what changed, why it matters, and the next action—three scrolls max.',
+      body: 'Weekly views built around decisions: what changed, why it matters, and what to do next—three scrolls, tops.',
     },
     {
       eyebrow: 'Brand safety',
       title: 'Creative fatigue is a product problem',
-      body: 'Asset rotation, variant naming, and UTM hygiene reduce silent leakage that makes ROAS look “fine” until it is not.',
+      body: 'Asset rotation, clear naming, and clean UTMs catch the quiet leakage that makes ROAS look “fine” until it is not.',
     },
     {
       eyebrow: 'Alignment',
-      title: 'One glossary for paid + organic',
-      body: 'Shared definitions for pipeline stages and “qualified” prevent teams from debating charts instead of customers.',
+      title: 'One glossary for paid and organic',
+      body: 'Shared definitions for pipeline stages and “qualified” so teams argue about customers, not charts.',
     },
   ],
   fit: {
-    title: 'SEO & PPC engagements',
-    idealTitle: 'Strong fit',
+    title: 'SEO and PPC engagements',
+    idealTitle: 'A great fit when',
     ideal: [
-      'You have (or want) clean first-party data feeding decisions.',
-      'Creative and media are willing to iterate on a weekly cadence.',
-      'You need help translating platform metrics into executive language.',
+      'You have—or want—clean first-party data behind decisions.',
+      'Creative and media can iterate on a weekly cadence.',
+      'You want help turning platform metrics into language leadership understands.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'Channels are seen as a shortcut without product/offering readiness—we will flag that early.',
-      'No budget for creative refreshes—platforms reward motion; static accounts rarely compound.',
+      'Channels are treated as a shortcut before the offer is ready—we will say that out loud early.',
+      'There is no room in the budget to refresh creative—platforms reward motion; static accounts rarely compound.',
     ],
   },
 }
 
 export const photoVideoNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'Visual work should plug into distribution, not live in a drive folder. This page explains how shoots become reusable modules.',
+    title: 'What this page covers',
+    lead:
+      'Visual work should plug into where it ships, not live in a forgotten drive. This is how shoots turn into reusable building blocks.',
     items: [
       {
-        title: 'Scope = deliverables',
-        description: 'Shot lists, ratios, formats, and accessibility of motion (captions, contrast) spelled out up front.',
+        title: 'Deliverables',
+        description: 'Shot lists, ratios, formats, and motion accessibility (captions, contrast) spelled out up front.',
       },
       {
-        title: 'Signals = suitability',
-        description: 'Specs reference where assets land—social, site hero, paid—to avoid beautiful footage that cannot ship.',
+        title: 'Where it lands',
+        description: 'Specs call out social, site hero, paid, and so on—so nothing is “beautiful but unusable.”',
       },
       {
-        title: 'Journey = production → library',
-        description: 'How raw becomes tagged, rights-managed, and ready for editors and media buyers.',
+        title: 'Production to library',
+        description: 'How raw footage becomes tagged, rights-managed, and easy for editors and media buyers to find.',
       },
     ],
   },
   journey: {
-    title: 'From brief to library-ready assets',
-    subtitle: 'Designed so marketing, brand, and legal can sign off without endless email chains.',
+    title: 'From brief to assets your team can reuse',
+    subtitle: 'So marketing, brand, and legal can sign off without endless email chains.',
     steps: [
       {
         phase: 'Pre-pro',
-        title: 'Creative platform + shot plan',
-        body: 'Moodboard tied to channels, aspect ratios, and caption-first story beats for thumb-stopping clarity.',
+        title: 'Creative direction and shot plan',
+        body: 'Mood tied to channels, aspect ratios, and opening frames that read even on a noisy feed.',
       },
       {
         phase: 'Capture',
-        title: 'Set disciplined for reuse',
-        body: 'Coverage for vertical and horizontal crops, B-roll for paid, and neutral plates for compositing.',
+        title: 'Sets planned for reuse',
+        body: 'Coverage for vertical and horizontal crops, B-roll for paid, and neutral plates when we need to composite later.',
       },
       {
         phase: 'Post',
         title: 'Color, sound, and packaging',
-        body: 'Masters, social cuts, and DAM metadata so teams find “the approved hero” in seconds, not Slack archaeology.',
+        body: 'Masters, social cuts, and DAM metadata so “the approved hero” takes seconds to find, not a Slack archaeology dig.',
       },
     ],
   },
@@ -206,62 +209,63 @@ export const photoVideoNarrative: ServiceNarrative = {
     {
       eyebrow: 'UX of motion',
       title: 'Silent-first storytelling',
-      body: 'Most viewers start muted. We design opening frames and supers so the message lands without sound.',
+      body: 'Most people start muted. We design opening frames and supers so the idea still lands.',
     },
     {
       eyebrow: 'Accessibility',
-      title: 'Captions are design, not compliance dust',
-      body: 'Timing, contrast, and line breaks are treated like typography—not auto-generated afterthoughts.',
+      title: 'Captions are design, not a checkbox',
+      body: 'Timing, contrast, and line breaks get the same care as typography—not a sloppy auto-export.',
     },
     {
       eyebrow: 'Ops',
-      title: 'Rights you can enforce',
-      body: 'Talent releases, music licenses, and usage windows are tracked beside the file—reducing launch risk.',
+      title: 'Rights you can actually enforce',
+      body: 'Talent releases, music licenses, and usage windows live next to the file—less launch-week panic.',
     },
   ],
   fit: {
-    title: 'Photo / video engagements',
-    idealTitle: 'Strong fit',
+    title: 'Photo and video engagements',
+    idealTitle: 'A great fit when',
     ideal: [
       'You need a repeatable library for campaigns and site refreshes.',
-      'Brand guidelines exist but need translation into motion grammar.',
+      'Brand guidelines exist but need a real motion grammar.',
       'You want fewer one-off shoots and more modular capture days.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'No stakeholder for final on-camera approvals—delays compound fast on set days.',
-      'Expectations of “viral” without distribution plan—we pair visuals with channel strategy.',
+      'No one can sign off on-camera—delays stack fast on shoot days.',
+      'The brief is “go viral” with no distribution plan—we pair visuals with channel strategy.',
     ],
   },
 }
 
 export const socialMediaNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'Social is a product surface: cadence, creative system, and community care. This page shows how we keep all three coherent.',
+    title: 'What this page covers',
+    lead:
+      'Social is part product: cadence, creative system, and community care. Here is how we keep all three pointing the same way.',
     items: [
       {
-        title: 'Scope = operating model',
-        description: 'What we publish, how we moderate, and how crises escalate—written down, not tribal knowledge.',
+        title: 'Operating model',
+        description: 'What we publish, how we moderate, and how rough moments escalate—written down, not tribal knowledge.',
       },
       {
-        title: 'Signals = quality + velocity',
-        description: 'Engagement without guardrails burns trust. We pair growth metrics with sentiment and response SLAs.',
+        title: 'Quality and pace',
+        description: 'Engagement without guardrails burns trust. We pair growth metrics with sentiment and response times.',
       },
       {
-        title: 'Journey = always-on',
-        description: 'How ideas move from brief to scheduled posts to learning notes that feed the next sprint.',
+        title: 'Always-on',
+        description: 'How ideas move from brief to scheduled posts to notes that feed the next sprint.',
       },
     ],
   },
   journey: {
-    title: 'Always-on social, calmly run',
-    subtitle: 'A calm operating rhythm beats “random acts of posting”—especially for lean teams.',
+    title: 'Always-on social, run calmly',
+    subtitle: 'A steady rhythm beats random bursts of posting—especially for lean teams.',
     steps: [
       {
         phase: 'Systemize',
         title: 'Voice, pillars, and approvals',
-        body: 'Editorial matrix, tone ladders, and lightweight legal review paths that do not bottleneck nights and weekends.',
+        body: 'Editorial matrix, tone ladders, and light legal paths that do not bottleneck nights and weekends.',
       },
       {
         phase: 'Produce',
@@ -270,8 +274,8 @@ export const socialMediaNarrative: ServiceNarrative = {
       },
       {
         phase: 'Learn',
-        title: 'Weekly retro → next brief',
-        body: 'What worked, what to retire, and what the community asked for—fed back to product and support teams.',
+        title: 'Weekly retro, then the next brief',
+        body: 'What worked, what to retire, and what the community asked for—fed back to product and support.',
       },
     ],
   },
@@ -279,72 +283,73 @@ export const socialMediaNarrative: ServiceNarrative = {
     {
       eyebrow: 'UX writing',
       title: 'Microcopy that survives screenshots',
-      body: 'Posts are UI: first lines, CTAs, and link previews are tested like above-the-fold web copy.',
+      body: 'Posts are UI: first lines, CTAs, and link previews get tested like above-the-fold web copy.',
     },
     {
       eyebrow: 'Community',
-      title: 'Inbox as brand touchpoint',
-      body: 'Saved replies + human nuance for FAQs; escalation paths when sentiment spikes—so brand feels cared for.',
+      title: 'The inbox is a brand moment',
+      body: 'Saved replies with room for a human touch; clear escalation when sentiment spikes—so the brand feels cared for.',
     },
     {
       eyebrow: 'Creative ops',
-      title: 'Fatigue is designed away',
-      body: 'Rotation rules and variant naming keep Meta/TikTok algorithms fed without burning your storytellers.',
+      title: 'Fatigue by design',
+      body: 'Rotation rules and variant naming keep algorithms fed without burning out your storytellers.',
     },
   ],
   fit: {
     title: 'Social engagements',
-    idealTitle: 'Strong fit',
+    idealTitle: 'A great fit when',
     ideal: [
-      'You need a sustainable calendar—not one viral spike.',
-      'Multiple stakeholders must align on voice and risk.',
-      'You want social insights to inform product and site.',
+      'You need a calendar you can sustain—not one viral spike and silence.',
+      'Several stakeholders need to align on voice and risk.',
+      'You want social insights to inform product and the site.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'No capacity to answer DMs or comments—social without care erodes trust quickly.',
-      'Expectations of instant virality without creative runway or media support.',
+      'There is no capacity to answer DMs or comments—social without care erodes trust fast.',
+      'The expectation is instant virality with no creative runway or media support.',
     ],
   },
 }
 
 export const ecommerceNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'Commerce UX is logistics + persuasion. This page connects what shoppers see with what ops can fulfill—same narrative we use in discovery.',
+    title: 'What this page covers',
+    lead:
+      'Commerce is part logistics, part persuasion. This connects what shoppers see with what your team can actually fulfill.',
     items: [
       {
-        title: 'Scope = flows',
-        description: 'PDP, cart, checkout, and post-purchase—each step has acceptance criteria tied to revenue and support load.',
+        title: 'Flows',
+        description: 'Product page, cart, checkout, and post-purchase—each step has criteria tied to revenue and support load.',
       },
       {
-        title: 'Signals = trust & speed',
+        title: 'Trust and speed',
         description: 'Core Web Vitals, payment success, and return reasons—so improvements map to money, not opinions.',
       },
       {
-        title: 'Journey = launch ladder',
+        title: 'Launch ladder',
         description: 'How we de-risk replatforms: shadow traffic, staged catalogs, and rollback levers.',
       },
     ],
   },
   journey: {
     title: 'Commerce launches with guardrails',
-    subtitle: 'A simplified path from audit to confident scale—especially when SKU counts are high.',
+    subtitle: 'From audit to scale—especially when you have a lot of SKUs.',
     steps: [
       {
         phase: 'Audit',
-        title: 'Friction map + data truth',
-        body: 'Checkout drop-offs, inventory sync delays, and promo edge cases—documented with severity and owners.',
+        title: 'Friction map and honest data',
+        body: 'Checkout drop-offs, inventory sync delays, and promo edge cases—ranked with owners.',
       },
       {
         phase: 'Design',
-        title: 'Merchandising that respects cognition',
-        body: 'Scannable PDPs, honest shipping timelines, and mobile-first payment paths that reduce “almost bought”.',
+        title: 'Merchandising that respects the brain',
+        body: 'Scannable product pages, honest shipping timelines, and mobile payment paths that reduce “almost bought.”',
       },
       {
         phase: 'Scale',
-        title: 'Automation without mystery',
-        body: 'Tax, promos, and fulfillment webhooks monitored with alerts your ops team can act on—not cryptic logs.',
+        title: 'Automation you can see and fix',
+        body: 'Tax, promos, and fulfillment hooks monitored with alerts your ops team can act on—not mystery logs.',
       },
     ],
   },
@@ -352,104 +357,105 @@ export const ecommerceNarrative: ServiceNarrative = {
     {
       eyebrow: 'UX research',
       title: 'We watch real sessions, not only heatmaps',
-      body: 'Replay-informed fixes for form fields, shipping messaging, and sticky CTAs—prioritized by revenue impact.',
+      body: 'Replay-informed fixes for fields, shipping copy, and sticky CTAs—prioritized by revenue impact.',
     },
     {
       eyebrow: 'Trust design',
-      title: 'Policies surfaced at the right moment',
-      body: 'Returns and privacy appear when anxiety peaks—reducing support tickets and cart anxiety.',
+      title: 'Policies at the moment anxiety spikes',
+      body: 'Returns and privacy show up when people need them—fewer tickets and less cart dread.',
     },
     {
       eyebrow: 'Ops empathy',
-      title: 'Editors cannot break the catalog',
-      body: 'Guardrails in CMS + validation rules prevent “small typos” that become costly fulfillment errors.',
+      title: 'Editors should not be able to break the catalog',
+      body: 'Guardrails in the CMS and validation rules catch “small typos” before they become expensive fulfillment mistakes.',
     },
   ],
   fit: {
     title: 'Ecommerce engagements',
-    idealTitle: 'Strong fit',
+    idealTitle: 'A great fit when',
     ideal: [
       'You are replatforming or modernizing a catalog-heavy store.',
       'Ops and marketing need shared visibility into promos and inventory.',
-      'You want CWV and checkout success treated as KPIs.',
+      'You want site speed and checkout success treated as KPIs.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'No owner for fulfillment rules—checkout UX cannot outrun warehouse reality.',
-      'Custom ERP edge cases undocumented—we need the “weird orders” stories early.',
+      'No one owns fulfillment rules—checkout UX cannot outrun warehouse reality.',
+      'Custom ERP edge cases are undocumented—we need the “weird orders” stories early.',
     ],
   },
 }
 
 export const automationsNarrative: ServiceNarrative = {
   readGuide: {
-    title: 'How to read this service page',
-    lead: 'Automation is invisible UX: when it works, teams stop firefighting. This page explains how we design reliable flows—not brittle hacks.',
+    title: 'What this page covers',
+    lead:
+      'Good automation is invisible UX: when it works, people stop firefighting. Here is how we design flows that hold up—not brittle hacks.',
     items: [
       {
-        title: 'Scope = workflows',
-        description: 'Triggers, transformations, destinations, and human approvals—each with failure handling spelled out.',
+        title: 'Workflows',
+        description: 'Triggers, transformations, destinations, and human approvals—each with a plan when something fails.',
       },
       {
-        title: 'Signals = reliability',
-        description: 'Latency, error budgets, and replay strategy—so “set and forget” does not become “set and regret”.',
+        title: 'Reliability',
+        description: 'Latency, error budgets, and replay strategy—so “set and forget” does not become “set and regret.”',
       },
       {
-        title: 'Journey = governance',
-        description: 'How we document, test, and hand off automations so the next engineer is not guessing.',
+        title: 'Governance',
+        description: 'How we document, test, and hand off so the next person is not guessing.',
       },
     ],
   },
   journey: {
     title: 'Automation that survives turnover',
-    subtitle: 'Human-centered ops design: clear logs, owners, and rollback—because tools change, people change.',
+    subtitle: 'Clear logs, owners, and rollback—because tools change and people change.',
     steps: [
       {
         phase: 'Map',
-        title: 'Process truth before tools',
-        body: 'As-is flows, exception paths, and data definitions—so we do not encode the wrong assumptions in Zapier/n8n/APIs.',
+        title: 'Understand the process before the tool',
+        body: 'Current flows, exception paths, and data definitions—so we do not encode the wrong assumptions in APIs or no-code.',
       },
       {
         phase: 'Build',
-        title: 'Idempotent, observable pipelines',
-        body: 'Retries, dead-letter queues, and structured logs—so support can answer “what happened to this record?”.',
+        title: 'Pipelines you can observe',
+        body: 'Retries, dead-letter queues, and structured logs—so support can answer “what happened to this record?”',
       },
       {
         phase: 'Govern',
-        title: 'Runbooks + least privilege',
-        body: 'Access reviews, change logs, and test data strategies—so compliance and eng both sleep better.',
+        title: 'Runbooks and least privilege',
+        body: 'Access reviews, change logs, and test data strategies—so compliance and engineering both sleep better.',
       },
     ],
   },
   insights: [
     {
       eyebrow: 'UX for internal teams',
-      title: 'Operators see friendly errors',
-      body: 'When a sync fails, humans get actionable messages—not stack traces buried in a vendor UI.',
+      title: 'Operators see helpful errors',
+      body: 'When a sync fails, people get a clear next step—not a stack trace buried five clicks deep in a vendor UI.',
     },
     {
       eyebrow: 'Safety',
-      title: 'Humans stay in the loop when stakes are high',
-      body: 'Money-moving and customer-impacting steps get approvals and dry runs—by design.',
+      title: 'Humans stay in the loop when it matters',
+      body: 'Money-moving and customer-impacting steps get approvals and dry runs on purpose.',
     },
     {
       eyebrow: 'Future-proofing',
-      title: 'Vendor-agnostic where it matters',
+      title: 'Vendor-agnostic where it counts',
       body: 'We document contracts at the data layer so swapping tools does not mean rewriting tribal knowledge.',
     },
   ],
   fit: {
     title: 'Automation engagements',
-    idealTitle: 'Strong fit',
+    idealTitle: 'A great fit when',
     ideal: [
-      'You have repetitive CRM ↔ warehouse ↔ finance handoffs.',
-      'You want fewer spreadsheet bridges and more audited trails.',
-      'You are willing to name owners for exceptions—not only happy paths.',
+      'You have repetitive handoffs between CRM, warehouse, and finance.',
+      'You want fewer spreadsheet bridges and clearer audit trails.',
+      'You can name owners for exceptions—not only the happy path.',
     ],
-    caveatTitle: 'Pause if',
+    caveatTitle: 'Better to wait if',
     caveats: [
-      'Processes change weekly with no DRI—automation will churn and frustrate.',
-      'Expectations of “AI fixes everything” without clean data inputs.',
+      'The process changes every week with no single owner—automation will churn and frustrate.',
+      'The hope is “AI fixes everything” without cleaning up inputs first.',
     ],
   },
 }

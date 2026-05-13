@@ -15,41 +15,41 @@ export const serviceHubItems: ServiceHubItem[] = [
     label: 'Website',
     eyebrow: 'Engineering',
     description:
-      'Composable frontends, headless CMS, CWV + a11y budgets in CI, and editor workflows that stay fast at scale.',
+      'Fast, flexible sites with a headless CMS, real speed and accessibility targets in CI, and editor workflows that stay pleasant as you grow.',
   },
   {
     to: '/services/seo-ppc',
     label: 'SEO & PPC',
     eyebrow: 'Demand',
     description:
-      'Intent maps, experiment discipline, server-side tagging, and dashboards wired to decisions—not vanity charts.',
+      'Clear intent maps, disciplined experiments, honest tagging, and dashboards built around decisions—not vanity charts.',
   },
   {
     to: '/services/photo-video',
     label: 'Photo / Video',
     eyebrow: 'Creative ops',
     description:
-      'Modular shoots, channel-native ratios, captions-first motion, and DAM-ready packaging for campaigns.',
+      'Shoots planned for reuse, native aspect ratios, captions-first motion, and files your DAM and campaigns can actually use.',
   },
   {
     to: '/services/social-media',
     label: 'Social',
     eyebrow: 'Editorial',
     description:
-      'Cadence, approvals, fatigue monitoring, and community care—so feeds stay coherent under velocity.',
+      'Steady cadence, sane approvals, fatigue checks, and community care—so your feed stays human under pressure.',
   },
   {
     to: '/services/ecommerce',
     label: 'Ecommerce',
     eyebrow: 'Commerce UX',
     description:
-      'Checkout resilience, promos + inventory truth, and merchandising patterns that reduce support drag.',
+      'Checkout that holds up in traffic spikes, promos tied to real inventory, and flows that mean fewer “where is my order?” tickets.',
   },
   {
     to: '/services/automations',
     label: 'Automations',
     eyebrow: 'Systems',
     description:
-      'Observable pipelines between CRM, ads, and finance—with runbooks humans can trust when things spike.',
+      'Visible connections between CRM, ads, and finance—with runbooks your team can follow when volume spikes.',
   },
 ]

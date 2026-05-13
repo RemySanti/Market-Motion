@@ -284,8 +284,8 @@ export type BentoShowcaseProps = {
 
 export function BentoShowcase({
   items = bentoHomeItems,
-  heading = 'Resources built like a product',
-  subheading = 'Two focused entry points and a wide canvas for benchmarks, kits, and merch—bento layout, pastel glass, motion on hover.',
+  heading = 'Ways to go deeper with us',
+  subheading = 'Two quick entry points plus a wider tile for benchmarks, kits, and the merch lab—pastel glass, light motion on hover.',
   idPrefix = 'bento-showcase',
   className = '',
 }: BentoShowcaseProps) {

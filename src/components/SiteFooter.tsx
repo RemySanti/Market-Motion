@@ -26,8 +26,7 @@ export function SiteFooter() {
             Market Motion
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-slate-400">
-            Digital systems for teams who want signal over noise—measured, modular, and built to
-            scale.
+            Digital growth for teams who want clear signal over noise—measured, modular, and built to scale with you.
           </p>
         </div>
         <nav aria-labelledby="footer-services-heading">

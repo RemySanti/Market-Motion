@@ -222,15 +222,15 @@ export function GrowthWorkbench() {
         <SectionHeading
           className="max-w-2xl"
           id={`${baseId}-workbench-heading`}
-          title="Explore the growth workbench"
-          description="Tab across Strategy, Systems, and Scale—then step through pages like a funnel builder. Inspired by interactive product tours; built for Market Motion’s delivery model."
+          title="Try the growth workbench"
+          description="Flip between Strategy, Systems, and Scale, then step through the journey the way we sketch it with teams—closer to a product tour than a slide."
         />
       </div>
 
       <div
         className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-3 shadow-[0_0_0_1px_rgba(255,255,255,0.04)_inset] backdrop-blur-xl sm:p-6"
         role="region"
-        aria-label="Interactive workbench preview"
+        aria-label="Interactive growth preview"
       >
         <div
           className="flex snap-x snap-mandatory gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] sm:justify-center sm:overflow-visible [&::-webkit-scrollbar]:hidden"
@@ -379,7 +379,7 @@ export function GrowthWorkbench() {
                   <p className="font-mono text-[10px] uppercase tracking-widest text-slate-500">
                     Results
                   </p>
-                  <p className="mt-2 text-xs text-slate-400">Thank you—metrics attached.</p>
+                  <p className="mt-2 text-xs text-slate-400">Thanks—here are the numbers.</p>
                 </div>
               </div>
 

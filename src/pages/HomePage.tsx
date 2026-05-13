@@ -16,41 +16,41 @@ import { usePageTitle } from '../hooks/usePageTitle'
 const pillars = [
   {
     title: 'Strategy',
-    body: 'Positioning, IA, and measurement plans that align exec intent with field reality.',
+    body: 'Positioning, site structure, and measurement that line up what leadership wants with what the field sees.',
   },
   {
     title: 'Systems',
-    body: 'Composable stacks: CRM hooks, data pipelines, and automation that reduce drag.',
+    body: 'CRM hooks, data pipelines, and automation that take friction out of day-to-day work.',
   },
   {
     title: 'Scale',
-    body: 'Paid + organic loops tuned for CAC efficiency—not vanity dashboards.',
+    body: 'Paid and organic loops tuned for efficient acquisition—not dashboards nobody opens.',
   },
 ]
 
 const funnelSteps = [
   {
     title: 'Diagnose',
-    body: 'Instrument the funnel, map journeys, and agree on success metrics before pixels move.',
+    body: 'Wire up the funnel, map real journeys, and agree what “good” means before we change a pixel.',
   },
   {
     title: 'Build',
-    body: 'Ship surfaces, creative systems, and integrations with accessibility and performance budgets.',
+    body: 'Ship pages, creative systems, and integrations with clear budgets for accessibility and speed.',
   },
   {
     title: 'Optimize',
-    body: 'Experiment on cadence—search, paid, lifecycle—and roll wins into durable playbooks.',
+    body: 'Run steady experiments across search, paid, and lifecycle—then turn wins into playbooks you keep.',
   },
 ]
 
 const headlineStats = [
-  { value: '97%', label: 'Sessions start on mobile', hint: 'Design for thumb reach first.' },
-  { value: '3×', label: 'Faster launch cycles', hint: 'Composable systems vs. one-off pages.' },
-  { value: '60d', label: 'To measurable lift', hint: 'Typical window for first validated cohort.' },
+  { value: '97%', label: 'Sessions start on mobile', hint: 'We design for thumbs and short attention first.' },
+  { value: '3×', label: 'Faster launch cycles', hint: 'Reusable pieces beat one-off pages every time.' },
+  { value: '60d', label: 'To a first clear win', hint: 'Rough window for the first cohort you can trust.' },
 ]
 
 export function HomePage() {
-  usePageTitle('Digital growth systems')
+  usePageTitle('Growth marketing for real teams')
   const reduceMotion = useReducedMotion()
   const heroStagger = reduceMotion ? undefined : staggerContainer(0.08, 0.08)
   const heroItem = reduceMotion ? undefined : fadeUpItem
@@ -71,7 +71,7 @@ export function HomePage() {
               className="motion-pulse h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400 animate-pulse"
               aria-hidden
             />
-            <span>Accepting Q2 engagements</span>
+            <span>Open for Q2 projects</span>
           </motion.p>
           <motion.h1
             id="hero-heading"
@@ -87,18 +87,18 @@ export function HomePage() {
             variants={heroItem}
             className="mt-5 max-w-2xl text-pretty text-base leading-relaxed text-slate-300 sm:mt-6 sm:text-lg"
           >
-            From business pages and ads to photography, video, and full SEO integration—one
-            growth system so your market feels intentional, not improvised.
+            Sites, ads, photo, video, and SEO that actually talk to each other—one growth
+            system so your market feels considered, not thrown together.
           </motion.p>
           <motion.div variants={heroItem} className="mt-8 flex w-full max-w-md flex-col gap-3 sm:mt-10 sm:max-w-none sm:flex-row sm:flex-wrap">
             <Link
               to="/contact"
               className="btn-primary w-full justify-center px-6 shadow-[0_0_36px_-12px_rgba(34,211,238,0.4)] sm:w-auto"
             >
-              Start your project
+              Start a project
             </Link>
             <Link to="/case-studies" className="btn-secondary w-full justify-center px-6 backdrop-blur-md sm:w-auto">
-              View our work
+              See our work
             </Link>
           </motion.div>
           <motion.ul
@@ -129,23 +129,23 @@ export function HomePage() {
         <PageReadGuide
           id="home-orientation"
           eyebrow="Your first visit"
-          title="How this homepage is structured"
-          lead="We built the page like a product surface: scan the promise, validate with proof, then pick a depth—demo widgets, benchmarks, or a direct conversation."
+          title="How this page is laid out"
+          lead="Skim the promise, poke the demos if you like, then choose your depth—widgets, benchmarks, or a straight conversation with us."
           items={[
             {
-              title: 'Hero → promise',
+              title: 'Hero: the promise',
               description:
-                'One sentence strategy and two CTAs—so visitors know what Market Motion does before scrolling on mobile.',
+                'One clear line about what we do and two buttons—so mobile visitors get the point before they scroll.',
             },
             {
-              title: 'Middle → evidence',
+              title: 'Middle: proof you can touch',
               description:
-                'Workbench, signal desk, and alerts mirror how we work—interactive, glass, and honest about tradeoffs.',
+                'Workbench, signal desk, and alerts feel like our real tools—interactive, glassy, and upfront about tradeoffs.',
             },
             {
-              title: 'Bottom → action',
+              title: 'Bottom: pick your next step',
               description:
-                'Bento tiles and the final CTA answer “what now?” without sending everyone to the same form.',
+                'Bento tiles and a final CTA answer “what now?” without shoving everyone down the same form.',
             },
           ]}
         />
@@ -154,11 +154,11 @@ export function HomePage() {
       <PageSection className="mt-16 sm:mt-20" aria-labelledby="headline-stats-heading">
         <div className="flex min-w-0 flex-col gap-4 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
           <h2 id="headline-stats-heading" className="section-title max-w-[min(100%,22rem)] sm:max-w-xl">
-            Built for the way people actually convert
+            Built for how people actually decide
           </h2>
           <p className="section-desc min-w-0 max-w-md sm:ml-auto sm:text-right">
-            Funnel-native thinking: fewer dead ends, clearer next steps, and creative that
-            survives mobile scrutiny—aligned with how teams ship at{' '}
+            Fewer dead ends, clearer next steps, and creative that still reads on a phone—in
+            line with how we ship at{' '}
             <a
               href="https://marketmotionagency.com/"
               className="link-quiet"
@@ -199,8 +199,8 @@ export function HomePage() {
       <PageSection className="mt-16 sm:mt-24" aria-labelledby="funnel-path-heading">
         <SectionHeading
           id="funnel-path-heading"
-          title="Your growth path—three deliberate stages"
-          description="Modeled after high-converting funnels: one primary job per step, progressive depth, and a CTA that always answers “what now?”."
+          title="Your growth path in three calm stages"
+          description="One main job per step, a little more depth as you go, and a button that always answers “what should I do next?”"
         />
         <ol className="mt-8 space-y-3 sm:mt-10 sm:space-y-4" aria-label="Engagement stages">
           {funnelSteps.map((step, index) => (
@@ -224,7 +224,7 @@ export function HomePage() {
                   to="/contact"
                   className="btn-primary self-stretch justify-center px-6 py-3 text-center shadow-[0_0_36px_-12px_rgba(34,211,238,0.4)] sm:self-center sm:min-w-[12.5rem]"
                 >
-                  {index === 2 ? 'Book optimization sprint' : 'Talk to us'}
+                  {index === 2 ? 'Book an optimization sprint' : 'Talk with us'}
                 </Link>
               </GlassPanel>
             </li>
@@ -235,8 +235,8 @@ export function HomePage() {
       <PageSection className="mt-16 sm:mt-24" aria-labelledby="pillars-heading">
         <SectionHeading
           id="pillars-heading"
-          title="Everything you need to dominate your market"
-          description="Comprehensive digital solutions—structured like a product team, delivered like an agency partner."
+          title="What we bring when you want the full picture"
+          description="Broad digital help, organized the way a product team would—still with the warmth you want from a partner."
         />
         <div className="mt-8 grid gap-4 sm:mt-10 md:grid-cols-3 md:gap-5">
           {pillars.map((p, i) => (
@@ -260,15 +260,15 @@ export function HomePage() {
               id="final-cta-heading"
               className="section-title max-w-full sm:max-w-xl md:max-w-2xl"
             >
-              Ready to launch your next measurable win?
+              Ready for your next win you can measure?
             </h2>
             <p className="section-desc mt-2 max-w-full sm:max-w-xl">
-              One conversation to align goals, constraints, and instrumentation—then we ship
-              with the rigor your funnel deserves.
+              One conversation to line up goals, constraints, and tracking—then we ship with the
+              care your funnel deserves.
             </p>
           </div>
           <Link to="/contact" className="btn-primary w-full shrink-0 justify-center px-8 sm:w-auto">
-            Schedule free consultation
+            Schedule a free consult
           </Link>
         </GlassPanel>
       </PageSection>

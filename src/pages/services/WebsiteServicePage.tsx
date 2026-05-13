@@ -9,12 +9,12 @@ export function WebsiteServicePage() {
     <ServiceFrame
       narrative={websiteNarrative}
       kicker="Service / Website"
-      title="High-performance marketing surfaces—not generic themes."
-      lede="We ship composable frontends with editor-friendly content models, edge caching, and CWV budgets enforced in CI."
+      title="Fast marketing sites your team can run—not cookie-cutter themes."
+      lede="Composable front ends editors can live in, edge caching, and real budgets for speed and accessibility checked in CI."
       bullets={[
-        'Design systems in code: tokens, variants, accessibility baked in—not bolted on.',
-        'Headless CMS with preview, role-based workflows, and migration playbooks.',
-        'Analytics schema + consent layer wired before launch day traffic hits.',
+        'Design systems in code: tokens, variants, and accessibility baked in from day one.',
+        'Headless CMS with previews, sensible roles, and migration notes you can follow.',
+        'Analytics events and consent wired before launch traffic arrives.',
       ]}
       metrics={[
         { label: 'Typical TTFB', value: '<120ms' },

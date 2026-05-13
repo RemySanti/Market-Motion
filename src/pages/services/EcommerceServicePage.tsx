@@ -9,12 +9,12 @@ export function EcommerceServicePage() {
     <ServiceFrame
       narrative={ecommerceNarrative}
       kicker="Service / Ecommerce"
-      title="Checkout flows that survive traffic spikes and promos."
-      lede="Headless storefronts, subscription logic, and ops automation—from catalog to fulfillment signals."
+      title="Checkout that survives traffic spikes and messy promos."
+      lede="Headless storefronts, subscriptions, and ops-friendly automation—from catalog to what fulfillment actually sees."
       bullets={[
-        'Shopify, Custom, or hybrid—pick the tradeoffs, we implement deliberately.',
-        'Merch rules, pricing experiments, and inventory-aware campaigns.',
-        'Payments, tax, and fraud hooks reviewed with your finance lead.',
+        'Shopify, custom, or hybrid—we pick the tradeoffs with you, then implement deliberately.',
+        'Merch rules, pricing tests, and campaigns that respect inventory.',
+        'Payments, tax, and fraud reviewed alongside your finance lead.',
       ]}
       metrics={[
         { label: 'Uptime posture', value: 'Multi-region' },

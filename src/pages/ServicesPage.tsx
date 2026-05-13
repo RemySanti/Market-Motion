@@ -22,8 +22,8 @@ export function ServicesPage() {
       <ScrollParallax amount={14}>
         <PageIntro
           kicker="Services"
-          title="One growth system—six specialist lanes."
-          lead="Pick the surface area you need first; every lane shares the same measurement language, design tokens, and delivery cadence. This hub explains how the pieces connect before you dive into a single scope page."
+          title="One growth system, six ways we can help."
+          lead="Start where your bottleneck is; every lane uses the same vocabulary for measurement, the same design tokens, and the same weekly rhythm. This hub shows how the pieces fit before you open a single service page."
         />
       </ScrollParallax>
 
@@ -32,22 +32,22 @@ export function ServicesPage() {
           <PageReadGuide
             eyebrow="Services · orientation"
             title="How to use this hub"
-            lead="Skim the grid for the lane that matches your bottleneck, then open the detail page for bullets, metrics, and fit. If you are unsure, start with Contact—we map the shortest path."
+            lead="Skim the grid for what is hurting most, then open the detail page for plain-language scope, targets, and fit. If you are not sure, start at Contact—we will map the shortest path."
             items={[
               {
-                title: 'Each card = a scope page',
+                title: 'Each card opens a full service page',
                 description:
-                  'Title + eyebrow tell you the discipline; the blurb is the outcome we optimize for—not a feature dump.',
+                  'The eyebrow is the discipline; the line below is the outcome we care about—not a feature list.',
               },
               {
-                title: 'Sequence is flexible',
+                title: 'Order is flexible',
                 description:
-                  'Website, demand, and creative often run in parallel; automations usually follow once data paths exist.',
+                  'Site, demand, and creative often move together; automations usually come once data paths behave.',
               },
               {
-                title: 'Same delivery contract',
+                title: 'Same way of working everywhere',
                 description:
-                  'Weekly decision reviews, async artifacts, and exec-ready readouts—no matter which lane kicks off first.',
+                  'Weekly decision time, async artifacts, and readouts leadership can skim—whichever lane you start with.',
               },
             ]}
           />
@@ -59,11 +59,11 @@ export function ServicesPage() {
           <div className="mb-8 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
               <h2 id="services-catalog-heading" className="section-title">
-                Service catalog
+                What we offer
               </h2>
               <p className="section-desc mt-3 max-w-2xl">
-                Tap a lane to see scope, KPI targets, delivery journey, and honest fit notes—structured the same way on every
-                page so your team learns the pattern once.
+                Tap a card for scope, the numbers we aim at, how delivery usually goes, and candid fit notes—same layout on
+                every page so your team only learns the pattern once.
               </p>
             </div>
             <Link to="/contact" className="btn-secondary shrink-0 self-start px-5 sm:self-auto">
@@ -90,7 +90,7 @@ export function ServicesPage() {
                       </span>
                     </p>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-400">{s.description}</p>
-                    <span className="mt-5 inline-flex text-xs font-semibold text-cyan-200/90">Open scope page</span>
+                    <span className="mt-5 inline-flex text-xs font-semibold text-cyan-200/90">Open the full page</span>
                   </GlassPanel>
                 </Link>
               </li>
@@ -121,7 +121,7 @@ export function ServicesPage() {
                       </span>
                     </p>
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-400">{s.description}</p>
-                    <span className="mt-5 inline-flex text-xs font-semibold text-cyan-200/90">Open scope page</span>
+                    <span className="mt-5 inline-flex text-xs font-semibold text-cyan-200/90">Open the full page</span>
                   </GlassPanel>
                 </Link>
               </motion.li>
@@ -133,23 +133,23 @@ export function ServicesPage() {
       <PageSection className="mt-12 sm:mt-16">
         <ScrollParallax amount={16}>
           <PageJourneyStrip
-            title="How engagements usually layer"
-            subtitle="Not a waterfall sales chart—a realistic map of how modern teams ship when web, media, and ops move together."
+            title="How work usually stacks"
+            subtitle="Not a waterfall pitch—just how teams tend to ship when web, media, and ops move together."
             steps={[
               {
                 phase: 'Foundation',
-                title: 'Instrument + surface',
-                body: 'Websites, tagging, and consent so every downstream channel reports the same truth—before we scale spend or creative.',
+                title: 'Measure and show up online',
+                body: 'Sites, tagging, and consent so every channel reports the same story—before we lean hard on spend or creative.',
               },
               {
                 phase: 'Acceleration',
-                title: 'Demand + creative systems',
-                body: 'SEO/PPC, social, and photo/video feed each other: modular assets, message match, and weekly learning loops.',
+                title: 'Demand and creative in sync',
+                body: 'SEO and PPC, social, and photo or video reinforce each other: modular assets, matched messaging, and weekly learning.',
               },
               {
                 phase: 'Scale',
-                title: 'Commerce + automation',
-                body: 'Checkout hardening, promos, and pipelines between CRM, ads, and finance—so growth does not break ops.',
+                title: 'Commerce and automation',
+                body: 'Checkout that holds up, promos that match inventory, and pipes between CRM, ads, and finance—so growth does not break ops.',
               },
             ]}
           />
@@ -159,29 +159,29 @@ export function ServicesPage() {
       <PageSection className="mt-12 sm:mt-16">
         <ScrollParallax amount={10}>
           <div className="mb-8 max-w-2xl">
-            <h2 className="section-title">Why the hub exists</h2>
+            <h2 className="section-title">Why we built this hub</h2>
             <p className="section-desc mt-3">
-              Buyers bounce when every service page feels like a different agency. We keep the narrative, visual system, and
-              page anatomy consistent—so stakeholders build confidence faster.
+              People tune out when every service page feels like a different company. We keep the story, visuals, and page
+              shape consistent—so your stakeholders get comfortable faster.
             </p>
           </div>
         </ScrollParallax>
         <PageInsightRow
           cards={[
             {
-              eyebrow: 'Information scent',
-              title: 'Predictable page anatomy',
-              body: 'Scope on the left, signals on the right, journey + fit below—same on every lane so scanning cost drops.',
+              eyebrow: 'Easy scanning',
+              title: 'Pages that feel familiar',
+              body: 'Delivery on the left, targets on the right, journey and fit below—same rhythm on every service so skimming is cheap.',
             },
             {
               eyebrow: 'Inclusive UX',
-              title: 'Keyboard + screen-reader friendly nav',
-              body: 'Desktop mega-menu stays focusable; mobile keeps a flat list with an explicit “overview” entry point.',
+              title: 'Nav that works with keyboard and screen readers',
+              body: 'Desktop mega-menu keeps focus in order; mobile keeps a simple list with a clear “overview” link.',
             },
             {
-              eyebrow: 'Decision support',
-              title: 'Fit callouts reduce misfires',
-              body: 'We name where we shine and where we pause—so procurement and practitioners align before hours burn.',
+              eyebrow: 'Honest pairing',
+              title: 'Fit notes to avoid misfires',
+              body: 'We say where we shine and where we slow down—so procurement and practitioners agree before hours disappear.',
             },
           ]}
         />
@@ -191,21 +191,21 @@ export function ServicesPage() {
         <div className="mb-8 max-w-2xl">
           <h2 className="section-title">Engagement fit</h2>
           <p className="section-desc mt-3">
-            We do our best work with teams that want signal, documentation, and shared ownership—not one-off heroics.
+            We do our best work with teams that want clear signal, good documentation, and shared ownership—not one-off heroics.
           </p>
         </div>
         <PageFitCallout
           title="Services engagements"
           idealTitle="We move fastest when"
           ideal={[
-            'You can name a north-star metric and the quarter it should move.',
-            'Marketing, product, and rev ops share a channel for decisions (Slack, Teams, etc.).',
-            'You are open to parallel workstreams instead of serial “wait for the PDF” reviews.',
+            'You can name the main metric and the quarter you need it to move.',
+            'Marketing, product, and rev ops share one place for decisions (Slack, Teams, etc.).',
+            'You are open to parallel work instead of “wait for the PDF” serial reviews.',
           ]}
           caveatTitle="We push pause when"
           caveats={[
-            'No DRI for analytics, consent, or brand approvals—those stalls become everyone’s problem.',
-            'Success is defined only as “more traffic” without a downstream conversion story.',
+            'No clear owner for analytics, consent, or brand approvals—those stalls become everyone’s problem.',
+            'Success is only “more traffic” with no story about what should convert afterward.',
           ]}
         />
       </PageSection>
@@ -219,9 +219,9 @@ export function ServicesPage() {
         >
           <GlassPanel className="flex flex-col items-start gap-6 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8" hover>
             <div className="min-w-0">
-              <h2 className="text-xl font-semibold text-white sm:text-2xl">Ready for a scoped conversation?</h2>
+              <h2 className="text-xl font-semibold text-white sm:text-2xl">Want to talk scope?</h2>
               <p className="mt-2 max-w-xl text-sm leading-relaxed text-slate-400">
-                Send constraints, links, and the metric you need to move—we will reply with the smallest useful next step.
+                Send constraints, links, and the number you need to move—we will answer with the smallest useful next step.
               </p>
             </div>
             <Link to="/contact" className="btn-primary w-full shrink-0 justify-center px-8 sm:w-auto">

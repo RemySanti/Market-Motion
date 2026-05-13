@@ -17,30 +17,30 @@ export function ContactPage() {
     <PageShell>
       <PageIntro
         kicker="Contact"
-        title="Tell us what “good” looks like in metrics—not mood boards."
-        lead="We reply within one business day with a concise next step: scoping call, audit, or referral if we are not the right fit."
+        title="Tell us what winning looks like on paper—not just in a mood board."
+        lead="We reply within one business day with a clear next step: a short call, a focused audit, or an intro elsewhere if we are not the right fit."
       />
 
       <PageSection className="mt-8 sm:mt-10">
         <PageReadGuide
           eyebrow="Contact · orientation"
-          title="How this page is laid out (on purpose)"
-          lead="The form captures what we need to route you quickly. The column on the right is for humans who prefer direct lines—or want to sanity-check availability before typing."
+          title="What you will find here"
+          lead="The form gathers what we need to respond well. The column on the right is for anyone who prefers email or phone—or wants to check hours before writing."
           items={[
             {
-              title: 'Fields map to triage',
+              title: 'Short fields, clear routing',
               description:
-                'Name + email identify you; objective is the signal for which strategist reads first—no essay required, bullets welcome.',
+                'Name and email tell us who you are; the objective field tells us who should read first. Bullets are perfect—no essay required.',
             },
             {
-              title: 'Submit = start of service design',
+              title: 'A real read, even on a demo form',
               description:
-                'We read for constraints, risk, and urgency—even in a demo form—so you get a useful reply, not a template.',
+                'We look for constraints, risk, and timing so your first reply is useful, not a mail-merge template.',
             },
             {
-              title: 'Privacy first',
+              title: 'Keep sensitive details out of the box',
               description:
-                'Do not paste secrets, credentials, or customer PII here; we will invite a secure channel if needed.',
+                'Please do not paste passwords, keys, or customer personal data here—we will move you to a secure channel when needed.',
             },
           ]}
         />
@@ -49,22 +49,22 @@ export function ContactPage() {
       <PageSection className="mt-10 sm:mt-12">
         <PageJourneyStrip
           title="What happens after you hit send"
-          subtitle="Predictable, lightweight, and respectful of your inbox."
+          subtitle="Lightweight, predictable, and kind to your inbox."
           steps={[
             {
               phase: 'Hour 0–24',
-              title: 'Routing + first read',
-              body: 'A strategist confirms fit, flags missing context, and assigns the right follow-up—audit, call, or intro to a partner.',
+              title: 'Someone reads it carefully',
+              body: 'We confirm fit, note anything missing, and line up the right follow-up—a call, a small audit, or an intro to another shop.',
             },
             {
               phase: 'Day 1–2',
-              title: 'Concrete next step',
-              body: 'You receive a short note with options: time slots, async questions, or a Loom if that is faster for your team.',
+              title: 'You get a concrete next step',
+              body: 'A short note with a few time options, a couple of async questions, or a quick Loom—whatever is fastest for your team.',
             },
             {
               phase: 'If we are not a fit',
-              title: 'We still leave you better off',
-              body: 'Expect a candid “no” with why, plus a referral or reading list—relationships matter more than pipeline theater.',
+              title: 'We still try to help',
+              body: 'You will get a straight answer with why, plus a referral or reading list when we can—relationships beat pipeline theater.',
             },
           ]}
         />
@@ -109,13 +109,13 @@ export function ContactPage() {
             </div>
             <div className="text-left">
               <label htmlFor={objectiveId} className="field-label">
-                Objective
+                What you are trying to do
               </label>
               <textarea
                 id={objectiveId}
                 rows={4}
                 className="field-input resize-none"
-                placeholder="e.g. Rebuild marketing site with GA4 + CRM sync; reduce CPL on branded search."
+                placeholder="For example: rebuild our marketing site with GA4 and CRM in sync, or bring down cost per lead on branded search."
                 name="objective"
               />
             </div>
@@ -123,7 +123,7 @@ export function ContactPage() {
               Send message
             </button>
             <p id={hintId} className="text-xs text-slate-500">
-              This demo form does not post to a server—wire your API or form provider here.
+              Demo only: this form does not post anywhere yet—hook up your API or form tool when you are ready.
             </p>
           </form>
         </GlassPanel>
@@ -147,7 +147,8 @@ export function ContactPage() {
           <GlassPanel className="p-5 sm:p-6" hover>
             <p className="font-mono text-xs uppercase text-slate-500">Availability</p>
             <p className="mt-3 text-sm text-slate-300">
-              Mon–Fri · 9:00–14:00 ET for live calls. Async collaboration across US time zones.
+              Monday–Friday, 9:00–14:00 Eastern for live calls. We collaborate async across U.S. time zones the rest of the
+              day.
             </p>
           </GlassPanel>
         </div>

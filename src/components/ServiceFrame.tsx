@@ -41,7 +41,7 @@ export function ServiceFrame({
 
       <PageSection className="mt-10 grid gap-6 sm:mt-12 lg:grid-cols-3">
         <GlassPanel className="p-5 sm:p-6 lg:col-span-2" hover>
-          <h2 className="font-mono text-xs uppercase tracking-widest text-slate-500">Scope</h2>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-slate-500">What we deliver</h2>
           <ul className="mt-5 space-y-3">
             {bullets.map((b) => (
               <li key={b} className="flex gap-3 text-sm leading-relaxed text-slate-300">
@@ -75,7 +75,7 @@ export function ServiceFrame({
           ))}
           <motion.div variants={reduceMotion ? undefined : fadeUpItem}>
             <Link to="/contact" className="btn-primary block w-full py-3.5 text-center">
-              Book a technical consult
+              Talk to us about this
             </Link>
           </motion.div>
         </motion.div>
@@ -88,19 +88,20 @@ export function ServiceFrame({
           </PageSection>
           <PageSection className="mt-12 sm:mt-16">
             <div className="mb-8 max-w-2xl">
-              <h2 className="section-title">Strategic lenses we apply</h2>
+              <h2 className="section-title">How we think about the work</h2>
               <p className="section-desc mt-3">
-                Short, expert-backed ways we think about the work—so you know how we will challenge briefs and
-                protect users.
+                A few things we keep front of mind—so you know how we push on briefs and look out for the people using
+                what we ship.
               </p>
             </div>
             <PageInsightRow cards={narrative.insights} />
           </PageSection>
           <PageSection className="mt-12 sm:mt-16">
             <div className="mb-8 max-w-2xl">
-              <h2 className="section-title">Fit &amp; expectations</h2>
+              <h2 className="section-title">Fit and expectations</h2>
               <p className="section-desc mt-3">
-                Transparent pairing beats surprise scope. Here is where we shine—and where we pause to align first.
+                We would rather be upfront than surprise you later. Here is where we are a strong match—and where we
+                slow down until we are aligned.
               </p>
             </div>
             <PageFitCallout {...narrative.fit} />

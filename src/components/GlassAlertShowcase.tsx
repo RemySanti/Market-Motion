@@ -6,48 +6,49 @@ import { fadeUpItem, staggerContainer } from '../motion/variants'
 const alerts = [
   {
     variant: 'critical' as const,
-    title: 'Warning',
+    title: 'Heads up',
     body: (
       <>
-        Deleting this workspace removes live dashboards. Historical exports are{' '}
-        <strong>permanently lost</strong> after the 24-hour grace window.
+        Deleting this workspace removes live dashboards. After the 24-hour grace window, historical exports are{' '}
+        <strong>gone for good</strong>.
       </>
     ),
   },
   {
     variant: 'success' as const,
-    title: 'Success',
+    title: 'All set',
     body: (
       <>
-        Workspace <strong>archived safely</strong>. Billing paused and seats returned to your
-        org pool.
+        Workspace <strong>archived safely</strong>. Billing is paused and seats go back to your organization pool.
       </>
     ),
   },
   {
     variant: 'warning' as const,
-    title: 'Caution',
+    title: 'Check with finance',
     body: (
       <>
-        This action is <strong>irreversible</strong> for connected ad accounts. Confirm with
-        finance before you proceed.
+        This step is <strong>irreversible</strong> for connected ad accounts. Give finance a quick heads-up before you continue.
       </>
     ),
   },
   {
     variant: 'info' as const,
-    title: 'Scheduled',
+    title: 'On the calendar',
     body: (
       <>
-        Workspace deletion is <strong>queued for tonight</strong> (02:00 ET). You can cancel
-        from the runbook until then.
+        Workspace deletion is <strong>queued for tonight</strong> (02:00 ET). You can still cancel from the runbook until then.
       </>
     ),
   },
   {
     variant: 'loading' as const,
-    title: 'Working',
-    body: <>Purging caches and rotating API keys—<strong>do not close this tab</strong>.</>,
+    title: 'Hang tight',
+    body: (
+      <>
+        Purging caches and rotating API keys—<strong>please keep this tab open</strong> until we finish.
+      </>
+    ),
   },
 ]
 
@@ -63,8 +64,8 @@ export function GlassAlertShowcase() {
       <SectionHeading
         className="relative z-[1] mb-6 max-w-2xl"
         id="glass-alerts-heading"
-        title="System-grade alerts"
-        description="Glass toasts with neon edge lighting—built for clarity under pressure. Same language we use in launch consoles and runbooks."
+        title="Alerts that stay legible when things get loud"
+        description="Glass toasts with a soft neon edge—same voice we use in launch checklists and runbooks so on-call folks see the point fast."
       />
 
       <motion.div

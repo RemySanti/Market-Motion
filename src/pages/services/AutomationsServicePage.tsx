@@ -9,12 +9,12 @@ export function AutomationsServicePage() {
     <ServiceFrame
       narrative={automationsNarrative}
       kicker="Service / Automations"
-      title="Workflow glue between marketing, sales, and finance."
-      lede="Idempotent integrations, observability, and rollback-friendly deploys—so ops does not fear the next Zap."
+      title="Quiet glue between marketing, sales, and finance."
+      lede="Reliable integrations you can observe and roll back—so ops is not afraid of the next automation."
       bullets={[
-        'Event contracts between CRM, warehouse, and ad platforms.',
-        'Human-in-the-loop steps where AI drafts but humans approve.',
-        'Runbooks + alerting: Pager-friendly, not mystery cron jobs.',
+        'Shared event definitions between CRM, warehouse, and ad platforms.',
+        'Human checkpoints where AI drafts and people approve for high-stakes steps.',
+        'Runbooks and alerts that on-call teammates can follow—not mystery cron jobs.',
       ]}
       metrics={[
         { label: 'Mean sync latency', value: '<60s' },
