@@ -27,14 +27,15 @@ export function HolisticHealthProjectPage() {
   useNoIndex()
 
   return (
-    <PageShell>
-      <ProjectPasswordGate
-        storageKey={holisticHealthGate.storageKey}
-        passwordSha256={holisticHealthGate.passwordSha256}
-        kicker="Confidential · Client brief"
-        title="Holistic Health Network"
-        lead="This page holds the marketplace intake and payment system brief. Enter the project password to open it."
-      >
+    <ProjectPasswordGate
+      storageKey={holisticHealthGate.storageKey}
+      passwordSha256={holisticHealthGate.passwordSha256}
+      kicker="Confidential · Client brief"
+      title="Holistic Health Network"
+      lead="This page holds the marketplace intake and payment system brief. Enter the project password to open it."
+    >
+      {({ lock }) => (
+        <PageShell>
         <PageIntro
           kicker="Private project brief"
           title="Marketplace intake & payment system."
@@ -418,7 +419,13 @@ export function HolisticHealthProjectPage() {
             </Link>
           </GlassPanel>
         </PageSection>
-      </ProjectPasswordGate>
-    </PageShell>
+        <div className="mt-10 flex justify-end">
+          <button type="button" className="btn-secondary px-4 text-xs" onClick={lock}>
+            Lock this brief
+          </button>
+        </div>
+        </PageShell>
+      )}
+    </ProjectPasswordGate>
   )
 }

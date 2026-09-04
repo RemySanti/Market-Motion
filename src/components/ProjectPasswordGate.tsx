@@ -3,13 +3,15 @@ import { createPortal } from 'react-dom'
 import { readGateUnlock, sha256Hex, writeGateUnlock } from '../lib/projectGate'
 import { GlassPanel } from './GlassPanel'
 
+type GateRender = (api: { lock: () => void }) => ReactNode
+
 type Props = {
   storageKey: string
   passwordSha256: string
   kicker: string
   title: string
   lead: string
-  children: ReactNode
+  children: GateRender
 }
 
 export function ProjectPasswordGate({
@@ -146,14 +148,5 @@ export function ProjectPasswordGate({
     )
   }
 
-  return (
-    <>
-      {children}
-      <div className="mt-10 flex justify-end">
-        <button type="button" className="btn-secondary px-4 text-xs" onClick={lock}>
-          Lock this brief
-        </button>
-      </div>
-    </>
-  )
+  return <>{children({ lock })}</>
 }
