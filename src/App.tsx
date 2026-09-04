@@ -4,6 +4,7 @@ import { MainLayout } from './layouts/MainLayout'
 import { AboutPage } from './pages/AboutPage'
 import { CaseStudiesPage } from './pages/CaseStudiesPage'
 import { ContactPage } from './pages/ContactPage'
+import { HolisticHealthProjectPage } from './pages/HolisticHealthProjectPage'
 import { HomePage } from './pages/HomePage'
 import { PrivacyPage } from './pages/PrivacyPage'
 import { ServicesPage } from './pages/ServicesPage'
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="services/social-media" element={<SocialMediaServicePage />} />
             <Route path="services/ecommerce" element={<EcommerceServicePage />} />
             <Route path="services/automations" element={<AutomationsServicePage />} />
+            <Route path="projects/holistic-health" element={<HolisticHealthProjectPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Route>
