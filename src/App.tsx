@@ -9,6 +9,7 @@ import { PrivacyPage } from './pages/PrivacyPage'
 import { ServicesPage } from './pages/ServicesPage'
 import { ShopPage } from './pages/ShopPage'
 import { TermsPage } from './pages/TermsPage'
+import { BulfranoGonzalezProposalPage } from './pages/proposals/BulfranoGonzalezProposalPage'
 import { AutomationsServicePage } from './pages/services/AutomationsServicePage'
 import { EcommerceServicePage } from './pages/services/EcommerceServicePage'
 import { PhotoVideoServicePage } from './pages/services/PhotoVideoServicePage'
@@ -36,6 +37,10 @@ export default function App() {
             <Route path="services/social-media" element={<SocialMediaServicePage />} />
             <Route path="services/ecommerce" element={<EcommerceServicePage />} />
             <Route path="services/automations" element={<AutomationsServicePage />} />
+            <Route
+              path="proposals/bulfrano-gonzalez-lawn-service"
+              element={<BulfranoGonzalezProposalPage />}
+            />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Route>
