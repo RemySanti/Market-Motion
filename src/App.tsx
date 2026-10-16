@@ -4,6 +4,7 @@ import { MainLayout } from './layouts/MainLayout'
 import { AboutPage } from './pages/AboutPage'
 import { CaseStudiesPage } from './pages/CaseStudiesPage'
 import { ContactPage } from './pages/ContactPage'
+import { GonzalezPitchPage } from './pages/GonzalezPitchPage'
 import { HomePage } from './pages/HomePage'
 import { PrivacyPage } from './pages/PrivacyPage'
 import { ServicesPage } from './pages/ServicesPage'
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="case-studies" element={<CaseStudiesPage />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="gonzalez" element={<GonzalezPitchPage />} />
             <Route path="shop" element={<ShopPage />} />
             <Route path="legal/privacy" element={<PrivacyPage />} />
             <Route path="legal/terms" element={<TermsPage />} />
