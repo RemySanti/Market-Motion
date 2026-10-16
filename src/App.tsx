@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { PageTransition } from './components/PageTransition'
 import { MainLayout } from './layouts/MainLayout'
 import { AboutPage } from './pages/AboutPage'
+import { BulfranoProposalPage } from './pages/BulfranoProposalPage'
 import { CaseStudiesPage } from './pages/CaseStudiesPage'
 import { ContactPage } from './pages/ContactPage'
 import { HomePage } from './pages/HomePage'
@@ -20,6 +21,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="proposals/bulfrano-gonzalez" element={<BulfranoProposalPage />} />
         <Route element={<MainLayout />}>
           <Route element={<PageTransition />}>
             <Route index element={<HomePage />} />
