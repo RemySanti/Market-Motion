@@ -15,6 +15,7 @@ import { PhotoVideoServicePage } from './pages/services/PhotoVideoServicePage'
 import { SeoPpcServicePage } from './pages/services/SeoPpcServicePage'
 import { SocialMediaServicePage } from './pages/services/SocialMediaServicePage'
 import { WebsiteServicePage } from './pages/services/WebsiteServicePage'
+import { BulfranoPitchPage } from './pages/BulfranoPitchPage'
 
 export default function App() {
   return (
@@ -36,6 +37,8 @@ export default function App() {
             <Route path="services/social-media" element={<SocialMediaServicePage />} />
             <Route path="services/ecommerce" element={<EcommerceServicePage />} />
             <Route path="services/automations" element={<AutomationsServicePage />} />
+            <Route path="proposals/bulfrano-lawn-service" element={<BulfranoPitchPage />} />
+            <Route path="pitch/gonzalez" element={<BulfranoPitchPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Route>

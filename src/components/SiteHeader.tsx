@@ -114,8 +114,16 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <MotionLink
+            to="/proposals/bulfrano-lawn-service"
+            className="btn-primary hidden px-3.5 py-1.5 text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500/30 shadow-[0_0_24px_-10px_rgba(34,197,94,0.35)] sm:inline-flex"
+            whileHover={reduceMotion ? undefined : { y: -2, scale: 1.03, transition: transitionHoverSpring }}
+            whileTap={reduceMotion ? undefined : { scale: 0.97, transition: transitionTapSpring }}
+          >
+            Proposal: Bulfrano
+          </MotionLink>
+          <MotionLink
             to="/contact"
-            className="btn-primary hidden px-4 shadow-[0_0_24px_-10px_rgba(34,211,238,0.35)] sm:inline-flex"
+            className="btn-primary hidden px-4 shadow-[0_0_24px_-10px_rgba(34,211,238,0.35)] md:inline-flex"
             whileHover={reduceMotion ? undefined : { y: -2, scale: 1.03, transition: transitionHoverSpring }}
             whileTap={reduceMotion ? undefined : { scale: 0.97, transition: transitionTapSpring }}
           >
@@ -189,6 +197,20 @@ export function SiteHeader() {
                   {l.label}
                 </MotionLink>
               ))}
+            </div>
+            <p className="px-3 pb-1 pt-4 font-mono text-[10px] font-medium uppercase tracking-[0.22em] text-slate-500">
+              Proposals
+            </p>
+            <div className="grid gap-0.5">
+              <MotionLink
+                to="/proposals/bulfrano-lawn-service"
+                onClick={() => setOpen(false)}
+                className="min-h-[48px] rounded-xl border border-emerald-500/25 bg-emerald-500/10 px-3 py-3 text-sm font-semibold text-emerald-200 transition-[background-color,border-color] duration-150 hover:border-emerald-400/40 hover:bg-emerald-500/15"
+                whileHover={reduceMotion ? undefined : { x: 4, scale: 1.01, transition: transitionHoverSpring }}
+                whileTap={reduceMotion ? undefined : { scale: 0.99, transition: transitionTapSpring }}
+              >
+                Client Pitch: Bulfrano Gonzalez Lawn Service
+              </MotionLink>
             </div>
             <p className="px-3 pb-1 pt-4 font-mono text-[10px] font-medium uppercase tracking-[0.22em] text-slate-500">
               Services

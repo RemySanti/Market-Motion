@@ -73,6 +73,16 @@ export function SiteFooter() {
             ))}
             <li>
               <MotionLink
+                to="/proposals/bulfrano-lawn-service"
+                className="inline-flex min-h-[44px] items-center rounded-md px-1.5 text-sm text-emerald-400/90 transition-colors duration-200 ease-out hover:text-emerald-300"
+                whileHover={linkHover}
+                whileTap={linkTap}
+              >
+                Client Pitch: Bulfrano Lawn Service
+              </MotionLink>
+            </li>
+            <li>
+              <MotionLink
                 to="/legal/privacy"
                 className="inline-flex min-h-[44px] items-center rounded-md px-1.5 text-sm text-slate-300 transition-colors duration-200 ease-out hover:text-white"
                 whileHover={linkHover}
