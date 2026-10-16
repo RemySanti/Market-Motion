@@ -119,9 +119,13 @@ export function BulfranoGonzalezPitchPage() {
           description={
             <p>
               You asked for a written list of exactly what we would build before we sign a
-              contract. Below is that scope. You provide gardening and landscape services; we
-              build and (if you choose Tier 2) maintain the website. Pick the tier that fits,
-              then we align the trade value on both sides in your contract.
+              contract. Below is that scope. Tier 1 is a{' '}
+              <strong className="font-medium text-white">$1,500 company credit</strong> trade for
+              the build (enhancements on request). Tier 2 is a{' '}
+              <strong className="font-medium text-white">lifetime 1:1 trade</strong> with
+              unlimited website updates, advanced build strategy, and up to{' '}
+              <strong className="font-medium text-white">$1,500 in landscaping enhancements</strong>{' '}
+              included.
             </p>
           }
         />
@@ -147,7 +151,7 @@ export function BulfranoGonzalezPitchPage() {
         <SectionHeading
           id="tiers"
           title="Two options"
-          description="Same core website in both tiers. The difference is whether you want a one-time build with handoff, or build plus lifetime support and free updates."
+          description="Same core website in both tiers. Tier 1 is a fixed $1,500 credit trade. Tier 2 is an ongoing 1:1 partnership with unlimited updates and a $1,500 enhancement allowance on the landscaping side."
         />
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           {tiers.map((tier) => (
@@ -167,6 +171,9 @@ export function BulfranoGonzalezPitchPage() {
                 </p>
               ) : null}
               <h3 className="text-xl font-semibold text-white">{tier.name}</h3>
+              <p className="mt-3 text-2xl font-semibold tracking-tight text-emerald-200">
+                {tier.tradeHeadline}
+              </p>
               <p className="mt-2 text-sm text-slate-300">{tier.summary}</p>
               <p className="mt-4 text-xs font-medium uppercase tracking-wide text-slate-500">
                 {tier.tradeLabel}
@@ -268,7 +275,10 @@ export function BulfranoGonzalezPitchPage() {
             <ol className="list-decimal space-y-2 pl-5 text-slate-300">
               <li>Review this page and choose Tier 1 or Tier 2.</li>
               <li>Reply with any changes to scope (extra pages, bilingual copy, etc.).</li>
-              <li>You send the contract with gardening scope and trade value filled in.</li>
+              <li>
+                You send the contract with Tier 1 credits or Tier 2 1:1 terms (and the $1,500
+                enhancement list) filled in.
+              </li>
               <li>We confirm the website scope above matches the contract, then begin build.</li>
             </ol>
           }
