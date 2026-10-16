@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import { AiStreamAvatarWidget } from '../components/AiStreamAvatarWidget'
 import { Background } from '../components/Background'
 import { ScrollProgressBar } from '../components/ScrollProgressBar'
@@ -7,6 +7,9 @@ import { SiteFooter } from '../components/SiteFooter'
 import { SiteHeader } from '../components/SiteHeader'
 
 export function MainLayout() {
+  const { pathname } = useLocation()
+  const isPitch = pathname.startsWith('/pitch')
+
   return (
     <div className="relative flex min-h-svh min-w-0 flex-col overflow-x-hidden">
       <Background />
@@ -21,7 +24,7 @@ export function MainLayout() {
         <Outlet />
       </main>
       <SiteFooter />
-      <AiStreamAvatarWidget />
+      {isPitch ? null : <AiStreamAvatarWidget />}
     </div>
   )
 }
